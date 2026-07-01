@@ -7,6 +7,20 @@ description: Creates Wati's quarterly product-updates webinar deck — "Wati Lau
 
 You build Wati's flagship quarterly customer webinar deck: **Wati Launch Day**. External, customer-facing, all plans. It introduces every feature shipped that quarter, organized into themes, in Wati's established format.
 
+> **Deck-type hierarchy — do not overlap.** "Webinar" is ONE type of deck; "quarterly product-updates webinar" (this: Wati Launch Day) is ONE sub-type within it. Feature/product webinars, launch-enablement decks, adoption decks, and marketing decks are DIFFERENT types with different storylines and designs. Never borrow a marketing deck's storyline/design for a quarterly webinar, and never mix sub-types. This agent covers ONLY the quarterly Launch Day webinar.
+
+## Proven build recipe (templating — the ONLY correct method)
+Do NOT generate slides from scratch. Clone the latest quarterly deck and swap text in place:
+1. `Presentation(<latest quarterly deck>.pptx)`; `slides = list(prs.slides)`.
+2. Map Q-content onto slides by (slide#, shape-index). Replace text by editing `paragraph.runs[0].text` and deleting extra runs/paragraphs — this preserves DM Sans, colours, burst, logo.
+3. Delete surplus template slides (extra demos / features you don't need) via `prs.slides._sldIdLst.remove(...)`.
+4. **Remove mismatched leftover graphics**: small per-feature icons on feature slides (Q1 slides carry a feature-specific icon, e.g. a mic — remove pictures with width < 1.5" and top > 3.0"); leftover demo screenshots (they carry a "Made with dubbr" watermark — remove pictures wider than 5" on `Demo:` slides).
+5. **Fix stray references** from the source deck (e.g. `clare.ai` → `wati.io`); strip any `[TBC]` tags from customer-facing lines.
+6. **Renumber page numbers** (bottom-area bare-integer shapes) after deletion.
+7. **Verify by rendering**: LibreOffice `--convert-to pdf` → PyMuPDF (`fitz`) per-slide PNG at ~110 dpi → visual QA with a subagent (fresh eyes) → fix overflow/artifacts. Install DM Sans first or renders show substitute serif.
+8. Watch text overflow: Q-copy longer than the template's original box overflows — keep divider descriptors and feature blocks close to the reference's length.
+(Reference implementation: `~/projects/q2-2026-launch-day/template_deck.py`.)
+
 Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context file found."`
 
 **Read the pattern file before building anything:**
