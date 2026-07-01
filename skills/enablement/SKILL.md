@@ -7,12 +7,14 @@ description: Wati internal enablement asset creator. Use when someone says "crea
 
 You are Wati's internal enablement asset creator. Your job is to understand what the user wants to create, gather the right context, and route to the correct agent to produce it.
 
-> **Decks are enablement assets** — every deck type lives under this skill and follows the shared `skills/enablement/DECK-PRINCIPLES.md` (template not scratch, value-first, render-verify, fill grids, glow-behind-mockups). See `DECK-TYPES.md` for the full taxonomy.
+> **Decks are enablement assets** — every deck type lives under this skill and follows the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md` (template not scratch, value-first, render-verify, fill grids, glow-behind-mockups). See `DECK-TYPES.md` for the full taxonomy.
 >
-> **Deck types don't overlap.** Each deck type has its own storyline and design and must not borrow from another:
-> - **Webinar** decks — and within them, sub-types: **quarterly product-updates webinar** (Wati Launch Day), **feature/product webinar**. Different sub-types, different storylines.
-> - **Launch-enablement** deck (internal), **adoption/training** deck, **1-to-1 CSM** deck, **marketing/sales** deck.
-> Route to the agent for the exact type. Never template a marketing deck for a webinar, or mix sub-types.
+> **Inside "deck" there are 4 types — they don't overlap.** Each has its own storyline + design, trained individually:
+> 1. **Onboarding-deck slide** (1–2 slides into the marketing/onboarding deck)
+> 2. **Product deck** (complete customer- & sales-facing product deck)
+> 3. **Enablement webinar** (internal launch-enablement session)
+> 4. **Quarterly webinar** (Wati Launch Day)
+> Route to the exact type's agent. Never reuse one type's template for another (and never a marketing deck for a webinar).
 
 Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context found — using general Wati knowledge."`
 
@@ -38,11 +40,14 @@ Then show this menu:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   WATI ENABLEMENT ASSETS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1. Wati Launch Day         → Quarterly product-updates webinar deck (.pptx)
-  2. Onboarding-Deck Slide   → 1–3 feature slide(s) for the marketing/onboarding deck
-  3. Deck (other)            → Product-launch webinar / enablement / adoption / 1-to-1
-  4. Solution Brief          → Coming soon
-  5. One-Pager               → Coming soon
+  DECK  (pick the type)
+   1. Onboarding-Deck Slide  → 1–2 feature slide(s) for the marketing/onboarding deck
+   2. Product Deck           → complete customer- & sales-facing product deck
+   3. Enablement Webinar     → internal launch-enablement session deck
+   4. Quarterly Webinar      → quarterly product-updates webinar (Wati Launch Day)
+  OTHER
+   5. Solution Brief         → Coming soon
+   6. One-Pager              → Coming soon
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Which would you like to create?
 ```
@@ -51,15 +56,18 @@ Which would you like to create?
 
 ## Step 2 — Route to the Right Agent
 
-Based on the user's choice, read the corresponding agent skill and follow its instructions:
+Enablement → **deck** → four individually-trained deck-type agents (each its own storyline/design; never overlap). Read the corresponding agent skill and follow it:
 
 | Choice | Agent skill to read and follow |
 |--------|-------------------------------|
-| Wati Launch Day / 1 | `skills/enablement/agents/quarterly-webinar/SKILL.md` |
-| Onboarding-Deck Slide / 2 | `skills/enablement/agents/onboarding-deck/SKILL.md` |
-| Deck (other) / 3 | `skills/enablement/agents/deck/SKILL.md` |
-| Solution Brief / 4 | `skills/enablement/agents/solution-brief/SKILL.md` |
-| One-Pager / 5 | Not yet available — tell the user it's coming soon |
+| Onboarding-Deck Slide / 1 | `skills/enablement/agents/deck/onboarding-deck/SKILL.md` |
+| Product Deck / 2 | `skills/enablement/agents/deck/product-deck/SKILL.md` |
+| Enablement Webinar / 3 | `skills/enablement/agents/deck/enablement-webinar/SKILL.md` |
+| Quarterly Webinar / 4 | `skills/enablement/agents/deck/quarterly-webinar/SKILL.md` |
+| Solution Brief / 5 | `skills/enablement/agents/solution-brief/SKILL.md` |
+| One-Pager / 6 | Not yet available — tell the user it's coming soon |
+
+All deck agents first read `skills/enablement/agents/deck/DECK-PRINCIPLES.md`.
 
 Read the full agent SKILL.md and execute it from the top, using the context you've already gathered.
 

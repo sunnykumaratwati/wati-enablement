@@ -1,6 +1,12 @@
 # Deck-Building Principles (shared by every deck agent)
 
-Decks are **enablement assets** — every deck agent under `skills/enablement/agents/` (quarterly-webinar, onboarding-deck, deck) inherits these. They are the accumulated feedback; do not violate them.
+Decks are **enablement assets**. Inside enablement → **deck** → four individually-trained deck-type agents, each under `skills/enablement/agents/deck/`:
+1. **onboarding-deck** — 1–2 feature slides inserted into the marketing/onboarding deck
+2. **product-deck** — the complete customer- & sales-facing product deck
+3. **enablement-webinar** — the internal launch-enablement webinar deck
+4. **quarterly-webinar** — the quarterly product-updates webinar (Wati Launch Day)
+
+All four inherit the principles below (accumulated feedback; do not violate). Each is trained individually for its own storyline/design — never overlap them.
 
 ## 1. Template — never from scratch
 Clone the matching real reference deck and swap text/content in place (preserves logo, burst, DM Sans, layout). Building slides from code loses all of it. See `context/design-system.md` (source of truth = the `wati-brand-auditor` brand guidelines).

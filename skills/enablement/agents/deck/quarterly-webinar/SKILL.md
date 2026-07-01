@@ -9,7 +9,7 @@ You build Wati's flagship quarterly customer webinar deck: **Wati Launch Day**. 
 
 > **Deck-type hierarchy — do not overlap.** "Webinar" is ONE type of deck; "quarterly product-updates webinar" (this: Wati Launch Day) is ONE sub-type within it. Feature/product webinars, launch-enablement decks, adoption decks, and marketing decks are DIFFERENT types with different storylines and designs. Never borrow a marketing deck's storyline/design for a quarterly webinar, and never mix sub-types. This agent covers ONLY the quarterly Launch Day webinar.
 
-**First read the shared `skills/enablement/DECK-PRINCIPLES.md`** — universal rules for every deck.
+**First read the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md`** — universal rules for every deck.
 
 ## Mistakes to NEVER repeat (learned the hard way)
 1. **Never build from scratch** — always template a real reference deck (from-scratch loses font, burst, logo, layout).

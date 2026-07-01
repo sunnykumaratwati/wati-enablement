@@ -9,7 +9,7 @@ You produce a single feature slide (occasionally 2–3 for a flagship feature) t
 
 > **This is its own deck type — don't overlap.** Onboarding-deck feature slides ≠ quarterly webinar ≠ product-launch webinar ≠ enablement session. Different storyline and purpose (a sales-pitch aid, not a narrative deck). See the router's type note.
 
-**First read the shared `skills/enablement/DECK-PRINCIPLES.md`** — universal rules for every deck (template not scratch, value-first, render-verify, glow-behind-mockups, fill grids).
+**First read the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md`** — universal rules for every deck (template not scratch, value-first, render-verify, glow-behind-mockups, fill grids).
 
 Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context file found."`
 

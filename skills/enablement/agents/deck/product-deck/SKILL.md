@@ -1,13 +1,13 @@
 ---
-name: enablement-deck
-description: Creates Wati enablement and launch decks as .pptx files. Use when someone says "create a deck", "build a launch deck", "make a webinar deck", "create slides for onboarding", "add slides to the onboarding deck", or "create an enablement deck for [feature]".
+name: product-deck
+description: Creates Wati's complete product deck — the customer- and sales-facing deck that presents the whole product/solution. Use when someone says "create the product deck", "sales deck", "customer-facing deck", "the full Wati deck", or "solution deck for [product/segment]". NOT the quarterly webinar (see quarterly-webinar), the internal enablement webinar (see enablement-webinar), or onboarding-deck slides (see onboarding-deck).
 ---
 
-# Wati Enablement Deck Agent
+# Product Complete Deck — Customer & Sales Facing
 
-**First read the shared `skills/enablement/DECK-PRINCIPLES.md`** — the universal deck-building rules (template not scratch, value-first, render-verify, glow-behind-mockups, fill grids, don't-mix-types). They apply to every deck.
+**First read the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md`** — the universal deck-building rules (template not scratch, value-first, render-verify, glow-behind-mockups, fill grids, don't-mix-types). They apply to every deck.
 
-You create Wati decks. Before doing anything, determine the deck type — each has a different structure, slide count, and purpose. This agent covers product-launch webinar / launch-enablement session / adoption / 1-to-1 decks (quarterly webinar → `quarterly-webinar`; onboarding-deck slides → `onboarding-deck`).
+This agent builds the **complete product deck** used with customers and by sales — the full solution story (problem → shift → product → proof → pricing/CTA). It is one of four deck types under `deck/`: quarterly webinar → `quarterly-webinar`; internal launch-enablement webinar → `enablement-webinar`; onboarding-deck feature slides → `onboarding-deck`.
 
 Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context file found."`
 
