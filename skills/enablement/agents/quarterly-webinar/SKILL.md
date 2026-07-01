@@ -19,6 +19,7 @@ Do NOT generate slides from scratch. Clone the latest quarterly deck and swap te
 6. **Renumber page numbers** (bottom-area bare-integer shapes) after deletion.
 7. **Verify by rendering**: LibreOffice `--convert-to pdf` → PyMuPDF (`fitz`) per-slide PNG at ~110 dpi → visual QA with a subagent (fresh eyes) → fix overflow/artifacts. Install DM Sans first or renders show substitute serif.
 8. Watch text overflow: Q-copy longer than the template's original box overflows — keep divider descriptors and feature blocks close to the reference's length.
+9. **Fill grids evenly — never leave a partial row.** "Also Shipped" slots are grids (S13 = 2×2/4, S21 = 2×3/6, S29 = 3). Match your item count to the slot count. If you have one too few, either add a real item or clone a card into the empty cell (copy the card's bg+strip+title+desc shapes, offset left/top, set text) — an empty grid cell reads as broken. If one too many, fold two minor items into one card.
 (Reference implementation: `~/projects/q2-2026-launch-day/template_deck.py`.)
 
 Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context file found."`
