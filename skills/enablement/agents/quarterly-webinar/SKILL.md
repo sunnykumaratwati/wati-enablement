@@ -52,7 +52,7 @@ Follow the skeleton in the pattern file:
 7. Q&A
 8. Thank You
 
-Use the pptx skill to generate the `.pptx`.
+**Build by TEMPLATING a real deck — never from scratch.** Start from the latest quarterly deck (`~/Desktop/Decks/Webinar Decks/Quarterly Updates/`), keep its masters/layouts/logo/burst/fonts, duplicate its divider / feature / demo / grid slide types as needed, and swap only the text to the Q2 content. Follow `context/design-system.md` (which defers to the wati-brand-auditor brand guidelines). Then **run the `wati-brand-auditor` skill** on the output and fix every flagged issue before showing the user.
 
 ---
 
