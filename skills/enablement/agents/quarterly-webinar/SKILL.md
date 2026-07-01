@@ -9,6 +9,14 @@ You build Wati's flagship quarterly customer webinar deck: **Wati Launch Day**. 
 
 > **Deck-type hierarchy — do not overlap.** "Webinar" is ONE type of deck; "quarterly product-updates webinar" (this: Wati Launch Day) is ONE sub-type within it. Feature/product webinars, launch-enablement decks, adoption decks, and marketing decks are DIFFERENT types with different storylines and designs. Never borrow a marketing deck's storyline/design for a quarterly webinar, and never mix sub-types. This agent covers ONLY the quarterly Launch Day webinar.
 
+## Mistakes to NEVER repeat (learned the hard way)
+1. **Never build from scratch** — always template a real reference deck (from-scratch loses font, burst, logo, layout).
+2. **Never declare "done" without rendering** every slide and eyeballing it (LibreOffice → PyMuPDF PNGs → fresh-eyes QA).
+3. **Never leave an empty grid cell** — fill "Also Shipped" grids evenly (clone a card or fold two minors).
+4. **Never reverse-engineer the design** — use the authoritative `wati-brand-auditor` brand guidelines.
+5. **Never mix deck types** — webinar ≠ quarterly-webinar ≠ marketing; separate storylines and designs.
+6. **Install DM Sans first** — a serif render means the font is missing, not that the deck is wrong.
+
 ## Proven build recipe (templating — the ONLY correct method)
 Do NOT generate slides from scratch. Clone the latest quarterly deck and swap text in place:
 1. `Presentation(<latest quarterly deck>.pptx)`; `slides = list(prs.slides)`.
