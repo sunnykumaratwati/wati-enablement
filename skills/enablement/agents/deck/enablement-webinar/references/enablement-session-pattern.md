@@ -1,28 +1,27 @@
 # Internal Enablement Session Deck — Pattern
 
-Extracted from the real reference: `~/Downloads/Decks/Wati - PMM Enablement - Session 1.pptx` (10 × 5.62 in). Slides 1–9 are the actual session; slides 10–48 are a **reusable layout library** (lorem-ipsum templates) at the back — clone layouts from there.
+Audience: **internal** — Sales / CS / Support. Purpose: equip the team on a launch (or a quarter) — what it is, why it matters, how to sell/support it, how we win, and where the assets are. Tone is **internal**: candid, educational, sometimes playful (a themed cover is fine). Not a polished customer narrative.
 
-Audience: **internal** — Sales / CS / Support. Purpose: equip the team on what shipped, what's coming, how to win competitively, and where to find assets. Tone is **internal and playful** (the reference used an "Avengers" theme cover) — not a polished customer narrative.
+## Storyline references (two real shapes)
+- **A — Periodic team enablement** (`~/Downloads/Decks/Wati - PMM Enablement - Session 1.pptx`): a quarter's recap. Slides 1–9 = session; 10–48 = a reusable layout library.
+- **B — Single-launch deep-dive** (`~/Desktop/Example Data/[Internal enablement] CTWA & Conversions.pptx`): one feature-cluster, taught end-to-end.
 
-## Storyline (follow this order)
-1. **Cover — themed/playful.** A fun internal hook (e.g. "Help is on its way! — The Avengers") + "WITH [presenters]". Signals it's an internal team session.
-2. **What is this enablement session?** — one slide on the purpose / why we're here.
-3. **Agenda ("On a serious note…")** — what we'll cover: what shipped, what's coming, competitive deep-dive, etc. Often with a team photo.
-4. **What we shipped (Recap)** — last quarter's launches grouped by area (AI & Copilot, Platform, Channels…), with the punchy stat per item (e.g. "CX Score: 1.1M conversations scored"). Pull from `context/*.md` Recently-Shipped.
-5. **What's coming (Roadmap)** — next quarter's roadmap, grouped by area.
-6. **Competitive battlecard deep-dive** — section divider + how we win vs a named competitor (e.g. Sleekflow). Pull from the battlecard / competitor-intel.
-7. **Customer story** — one story told as THE PROBLEM → solution → result (e.g. "Zostel: fragmented guest queries").
-8. **Where to find the PMM assets?** — point the team to the Sales Enablement Library / where collateral lives.
-9. **Q&A**
-10. **Thank you** (contact).
+**Pick the shape from the ask.** A quarterly/periodic session → A. A specific launch/feature enablement → B. You may blend.
 
-Adapt to the launch: for a single-feature enablement, replace the quarterly recap/roadmap with **the feature** (what it is, how to demo it, plan eligibility, objections/FAQs, what to pitch it against) — but keep the internal arc (equip → compete → prove → assets → Q&A).
+### Shape A — Periodic (recap) arc
+Themed cover → what is this session → agenda → **what we shipped** (by area, with the punchy stat) → **what's coming** → **competitive battlecard deep-dive** → **customer story** (problem→solution→result) → **where to find PMM assets** → Q&A → thank you.
 
-## Design
-Wati brand system (`context/design-system.md` / `DECK-PRINCIPLES.md`): DM Sans, brand palette, burst on headings, logo, footer `www.wati.io | hello@wati.io`. Section dividers = full solid brand-tint slides (green/cream/blue/yellow), rotating. Internal tone allows a playful themed cover.
+### Shape B — Single-launch deep-dive arc
+Cover → **educate** ("What is X?", "Why X?", concept explainers like "what is CAPI?") → **status-quo pain** ("current process / what businesses do today") → **Before → Now → Benefits** → **feature walkthrough** (section + detail slides) → **demo** → **conversion/insights / why-Wati** → **packaging & pricing / availability** → **getting started / pre-req / known issues / current adoption** → **"feedback we need"** (ask the team to gather customer input) → honest **"why is this complex / why are we doing this"** → Q&A.
 
-## Layout library (reference deck slides 10–48 — clone these)
-The back of the reference deck is a template library: multi-column content layouts, quote/case-study layouts ("Quote-hook / actual quote / who said it"), heading+body layouts, and contact/thank-you layouts. Clone the layout that fits each section rather than building from scratch.
+## Section palette (pull the ones the launch needs — be analytical, don't force empties)
+what-is / why / concept-explainer · status-quo pain · before→now→benefits · feature walkthrough · demo · insights & why-Wati · competitive battlecard · customer story/quote · packaging/pricing/availability · getting-started/pre-req/known-issues/adoption · attributes & technical differences (for CS/Support) · "feedback we need" · "why it's complex / why we're doing this" · where-to-find-assets · Q&A.
+
+## Design (borrow from the customer marketing/sales decks)
+Design is borrowed from **`Wati for Marketing_ Deck Draft_ Final.pptx` and the Wati Sales deck (`Wati Deck - Sales Template 2026.pptx`) / templates** — plus the enablement deck's own layout library. Follow the Wati brand system (`context/design-system.md` / `DECK-PRINCIPLES.md`): DM Sans, brand palette, burst on headings, logo, footer `www.wati.io | hello@wati.io`, rotating brand-tint section dividers, soft glow behind mockups. A playful themed cover is on-brand for internal.
+
+## Layout library (clone layouts, don't invent)
+Reference A's slides 10–48 are a template library (multi-column content, quote/case-study, heading+body, dividers, contact/thank-you). For each planned slide, clone the layout that fits its content — from this library or from the Marketing/Sales decks.
 
 ## Inputs
 - What shipped + what's coming (from `context/*.md`, kept current by the weekly refresh)

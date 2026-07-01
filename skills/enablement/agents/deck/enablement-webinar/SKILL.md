@@ -13,9 +13,12 @@ This agent builds the **internal enablement deck**: a session that equips Sales/
 
 Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context file found."`
 
-## Reference deck (template from this — never from scratch)
-`~/Downloads/Decks/Wati - PMM Enablement - Session 1.pptx`
-- Slides 1–9 = the real session (storyline). Slides 10–48 = a reusable **layout library** — clone the layout that fits each section and swap the content.
+## References (template from these — never from scratch)
+**Storyline** (two shapes — pick from the ask; see pattern file):
+- A — Periodic recap: `~/Downloads/Decks/Wati - PMM Enablement - Session 1.pptx` (1–9 session; 10–48 layout library)
+- B — Single-launch deep-dive: `~/Desktop/Example Data/[Internal enablement] CTWA & Conversions.pptx`
+
+**Design** is borrowed from the customer marketing/sales decks: `~/Desktop/Example Data/Wati for Marketing_ Deck Draft_ Final.pptx` and `~/Desktop/Example Data/Wati Deck - Sales Template 2026.pptx` — plus reference A's layout library. Clone the layout that fits each slide; swap content.
 
 ## Method
 
@@ -32,7 +35,7 @@ Pull the launch's content in this order, stopping when you have enough:
 **The deck length scales with the launch's significance — you decide as PMM.** A big/flagship feature earns more slides (recap + a real deep-dive + demo + customer story + objections); a small feature gets a tight few. Don't pad a minor launch to full length, and don't shortchange a major one. State your reasoning and the planned slide count before building.
 
 ### 3. Plan the storyline (LLM the fit)
-Use the internal arc from the pattern file as the spine, then **reason about what actually fits THIS launch** from the gathered content: themed cover → what is this session → agenda → what we shipped → what's coming → competitive battlecard → customer story → where to find assets → Q&A → thank you. Include a section only if you have the data for it (not every launch has a customer quote or FAQs — adapt; don't force empty sections). For a single-feature enablement, swap recap/roadmap for the feature (what it is, how to demo, plan, objections/FAQs, what to pitch against).
+**Pick the storyline shape from the ask** (pattern file): A = periodic recap; B = single-launch deep-dive. Then **reason about what actually fits THIS launch** and assemble from the section palette (educate/why · status-quo pain · before→now→benefits · walkthrough · demo · why-Wati · battlecard · customer story · packaging/pricing · getting-started/known-issues/adoption · attributes · "feedback we need" · "why it's complex" · assets · Q&A). Include a section only if you have the data for it — don't force empty quote/FAQ sections.
 
 ### 4. Match each slide to a layout-library template
 For every slide you plan, **pick the matching template page from the reference deck's layout library (slides 10–48)** by content type — multi-column recap, quote/case-study layout, heading+body, section divider, contact/thank-you. Choose the layout whose shape fits the content and value props; clone it and swap the copy. Don't invent a layout when a library one fits.
