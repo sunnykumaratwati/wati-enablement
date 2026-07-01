@@ -18,31 +18,24 @@ It contains the exact slide-by-slide skeleton extracted from Wati's real Q1 2026
 
 ---
 
-## Step 1 — Gather the quarter's inputs
+## The workflow: Features in Focus → reconcile → deck
 
-Check for a project folder first (`ls ~/projects/`) — the quarter's release notes may already be there. If not, ask the user for:
+The deck is built from a **"Features in Focus" doc** — the curated, themed list of the quarter's customer-impacting launches. **Read `references/features-in-focus-format.md`** for its format and curation rules.
 
-1. **Quarter + year + month** (e.g. Q2 2026, webinar in July)
-2. **Features shipped this quarter** — for each: name, the problem, what shipped, the benefit, plan eligibility. Accept this as a list, a Notion link, or a release log — whatever the user has.
-3. **Quarter stats** — features shipped, bugs fixed, channels live (for "At a Glance"). Mark `[# — TBC]` if unknown.
-4. **Next-quarter roadmap** — 4–6 upcoming items for the teaser.
-5. **Screenshots / demo links** — for features that get a demo slide (optional; use placeholders if absent).
+### Step 1 — Build or receive the Features in Focus doc
+- If the user asks *"what launched this quarter?"* → generate the doc from `context/*.md` (dated "Recently Shipped" sections) + Slack #product-updates-gtm, applying the curation rules: include only features impacting **existing paying customers**; **exclude trials, signups, packaging/pricing, pure-marketing**; group into 3–5 themes; lead with the biggest-MRR/marquee theme (Astra has led recently).
+- If the user already has a doc (e.g. a Notion "Features in Focus" page), use it as the base.
 
-Do not invent features or stats. If something is missing, mark it `[TBC]` and flag it.
+### Step 2 — Reconcile before building (the "any updates to add?" check)
+Cross-check the doc against the latest `context/*.md` and Slack #product-updates-gtm for anything launched since the doc was written or missing from it. **Surface proposed additions/changes to the user and confirm before building the deck.**
 
----
+### Step 3 — Gather remaining inputs
+- **Quarter + year + month**, webinar date/speakers
+- **Quarter stats** — features shipped, bugs fixed, channels live (for "At a Glance"); mark `[# — TBC]` if unknown
+- **Next-quarter roadmap** — 4–6 upcoming items for the teaser
+- **Screenshots / demo links** — optional; use placeholders if absent
 
-## Step 2 — Group features into themes
-
-Cluster the features into **4–6 numbered themes**. The recurring Wati themes are:
-- **AI at Wati** (Astra, Copilot, voice agents)
-- **Multichannel Conversations** (WhatsApp, Instagram, Messenger, RCS, SMS, TikTok)
-- **Sales & Marketing Automation** (campaigns, segments, sequences, CTWA)
-- **Ecommerce / Shopify Growth**
-
-If the features don't map cleanly to these, propose a grouping and confirm with the user before building.
-
-Minor features that don't warrant a full slide go into an **"Also Shipped in [Quarter]"** grid at the end of their theme.
+Pull each feature's depth (value prop, positioning, plan, proof) from the matching `context/*.md`. Minor features go into an **"Also Shipped in [Quarter]"** grid at the end of their theme. Do not invent features or stats — mark `[TBC]` and flag.
 
 ---
 
