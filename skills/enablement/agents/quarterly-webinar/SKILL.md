@@ -14,6 +14,8 @@ Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand co
 
 It contains the exact slide-by-slide skeleton extracted from Wati's real Q1 2026 and Q4 '25 decks. Follow it precisely — this is the house format, not a suggestion.
 
+**Use the Product Knowledge Base for feature integrity:** `context/` holds one file per Wati product category (see `context/README.md`). When a feature in the quarter feed is one you don't know deeply (e.g. an Astra release), read the matching category file (`context/ai-astra.md`, etc.) for its positioning, plan, proof points, and do's/don'ts. This is how you present every feature accurately — even ones you didn't build.
+
 ---
 
 ## Step 1 — Gather the quarter's inputs
