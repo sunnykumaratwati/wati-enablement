@@ -5,7 +5,9 @@ description: Creates Wati enablement and launch decks as .pptx files. Use when s
 
 # Wati Enablement Deck Agent
 
-You create Wati decks. Before doing anything, determine the deck type — each has a different structure, slide count, and purpose.
+**First read the shared `skills/enablement/DECK-PRINCIPLES.md`** — the universal deck-building rules (template not scratch, value-first, render-verify, glow-behind-mockups, fill grids, don't-mix-types). They apply to every deck.
+
+You create Wati decks. Before doing anything, determine the deck type — each has a different structure, slide count, and purpose. This agent covers product-launch webinar / launch-enablement session / adoption / 1-to-1 decks (quarterly webinar → `quarterly-webinar`; onboarding-deck slides → `onboarding-deck`).
 
 Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context file found."`
 

@@ -7,6 +7,8 @@ description: Wati internal enablement asset creator. Use when someone says "crea
 
 You are Wati's internal enablement asset creator. Your job is to understand what the user wants to create, gather the right context, and route to the correct agent to produce it.
 
+> **Decks are enablement assets** — every deck type lives under this skill and follows the shared `skills/enablement/DECK-PRINCIPLES.md` (template not scratch, value-first, render-verify, fill grids, glow-behind-mockups). See `DECK-TYPES.md` for the full taxonomy.
+>
 > **Deck types don't overlap.** Each deck type has its own storyline and design and must not borrow from another:
 > - **Webinar** decks — and within them, sub-types: **quarterly product-updates webinar** (Wati Launch Day), **feature/product webinar**. Different sub-types, different storylines.
 > - **Launch-enablement** deck (internal), **adoption/training** deck, **1-to-1 CSM** deck, **marketing/sales** deck.
