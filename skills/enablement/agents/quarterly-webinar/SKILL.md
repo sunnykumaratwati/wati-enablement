@@ -23,7 +23,7 @@ It contains the exact slide-by-slide skeleton extracted from Wati's real Q1 2026
 The deck is built from a **"Features in Focus" doc** — the curated, themed list of the quarter's customer-impacting launches. **Read `references/features-in-focus-format.md`** for its format and curation rules.
 
 ### Step 1 — Build or receive the Features in Focus doc
-- If the user asks *"what launched this quarter?"* → generate the doc from `context/*.md` (dated "Recently Shipped" sections) + Slack #product-updates-gtm, applying the curation rules: include only features impacting **existing paying customers**; **exclude trials, signups, packaging/pricing, pure-marketing**; group into 3–5 themes; lead with the biggest-MRR/marquee theme (Astra has led recently).
+- If the user asks *"what launched this quarter?"* → generate the doc from `context/*.md` (dated "Recently Shipped" sections) + Slack #product-updates-gtm, applying the curation rules: include only features impacting **existing paying customers**; **exclude trials, signups, packaging/pricing, pure-marketing**; group into 3–5 themes. **The lead theme is the PMM's call — ask which theme leads; don't assume.** Default proposal: lead with the biggest-MRR/marquee theme, then order the rest by impact, and let the user confirm or override. (Q2 2026: PMM chose Astra to lead.)
 - If the user already has a doc (e.g. a Notion "Features in Focus" page), use it as the base.
 
 ### Step 2 — Reconcile before building (the "any updates to add?" check)
