@@ -4,6 +4,11 @@ Catalog of the feature-slide templates used in Wati's marketing/onboarding decks
 
 All templates follow the Wati design system (`context/design-system.md`): DM Sans, brand palette, burst on headings, logo top-right, footer.
 
+## VALUE FIRST (the core rule)
+An onboarding feature slide **sells value, not mechanics**. Lead with the outcome — what the feature brings, how much value, the positioning — then support with how it works. "Your blank Monday, already planned. A revenue-ready week in minutes, not hours." beats "2–5 recommendations per week." Pull the value angle from `context/positioning.md` + the feature's `context/*.md`. Feature bullets alone = a failed slide.
+
+As PMM, **judge how much depth the feature deserves** (marquee vs minor) and pick the template that does it justice — richer templates (value + specs, value + proof, use-case grids) for important features; simple ones for minor.
+
 ## How to choose a template (by feature size/importance)
 - **Small / simple feature** → **T1 (Text + single mockup)** or **T5 (3-up)** — one slide.
 - **Medium feature** (a few capabilities) → **T2 (Text + visual grid)** or **T5 (3-up icon rows)** — one slide.
@@ -34,6 +39,21 @@ Three (or four) benefit blocks, each = icon + bold head + one line. Use for a fe
 
 ### T6 — Case study / stat callout
 Big stat callouts (💸 / 📞 / 📊 style) + a customer quote + name/role. Use to prove a big feature with a real customer. Only real stats/quotes — else omit. (Ref: Habuild / Bowaba / Blacklyf slides.)
+
+### T7 — Value tagline + "delivers" bullets + spec table + mockup  *(value-led workhorse)*
+Left: bold 2-line **value tagline** (outcome) → "[Product] delivers:" → 4 value bullets (check icons) → a **spec table** (Label | Detail). Right: product mockup/screenshot. Best for an important feature with a clear value story AND concrete specs. (Ref: onboarding deck slide 22, "Voice AI Agents". This is what the Campaign Calendar slide used.)
+
+### T8 — Value panel + proof quote + flow diagram
+Left tinted panel: big **value headline** + colored sub-tagline ("Drive efficiency | Scale | Increase sales") + 2 bold value bullets + a **customer quote box** (name/role/logo). Right: a flow diagram + phone mockup. Best for a flagship feature where proof matters. (Ref: "Leverage our powerful chatbots…", slide ~52.)
+
+### T9 — Title + big annotated diagram
+Title + one-line intro, then a large annotated diagram with **highlighted callouts** pointing to parts of the flow. Use when the value is in showing how pieces connect (routing, distribution). (Ref: "Automatically distribute leads…".)
+
+### T10 — Value title + use-case icon grid + dual mockup + proof
+Big value title left + a grid of 4 use-case icons (Send invoices / Shipping / Reorder / Upsell) + two phone mockups showing the flow + a customer proof strip. Best for a feature with several use cases + proof. (Ref: "Skyrocket your ROI with post-purchase automations", slide 57.)
+
+### T11 — Capability panels
+Title + "You can use [X] to:" 3 value bullets, then 2–3 tinted panels, each = a sub-capability with a screenshot + short description. Use for a feature with distinct sub-modes. (Ref: "Use 'Rules' to trigger actions…".)
 
 ## Content each feature slide needs (pull from `context/*.md` + support article)
 - Feature name (exact, per naming rules in `context/positioning.md`)

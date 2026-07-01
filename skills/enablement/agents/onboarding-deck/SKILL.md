@@ -23,13 +23,14 @@ Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand co
    - Edit text in place by shape index (preserve DM Sans, burst, logo, layout). Remove/replace any leftover feature-specific graphics or screenshots (use a clean `[SCREENSHOT PLACEHOLDER]` — Sunny adds the real Figma export). Fix stray refs; fill grids evenly.
 6. **Save just the slide(s)** as a small `.pptx` to `~/projects/<feature>/outputs/onboarding-slide-<feature>.pptx`.
 
-## Content the slide must carry
-- Exact feature name (per `context/positioning.md` naming rules)
-- One-line benefit ("what it does for the customer")
-- 3 key benefits (T1/T5) or the visual/flow (T2/T3)
-- Plan eligibility
-- **What to pitch it against** (the pain / competitor / old way it beats) — this is a sales aid
-- Real proof point if it's a big feature (T6)
+## Content the slide must carry — VALUE FIRST
+An onboarding slide **sells value, not mechanics**. Lead with the outcome; support with how.
+- **A value tagline** — the outcome/positioning ("Your blank Monday, already planned. A revenue-ready week in minutes, not hours."), not a feature restatement.
+- **Value bullets** — what it brings and how much (time saved, budget protected, more engagement, revenue moments captured) — pulled from `context/positioning.md` + the feature's `context/*.md`. Include the richer story (e.g. campaigns: AI generates 3 copy options, more engagement, pacing protects budget), not just one mechanic.
+- Exact feature name + plan eligibility (naming per `context/positioning.md`).
+- **What to pitch it against** (the pain / old way it beats).
+- Specs table or proof if the template calls for it (T6/T7/T8/T10).
+- As PMM, decide the depth the feature deserves and pick the template that does it justice.
 
 ## Design
 Follow `context/design-system.md` exactly (Wati overall theme: DM Sans, brand palette, burst on heading, logo top-right, footer, no shadows, rounded tinted cards). The onboarding deck uses this same theme.
