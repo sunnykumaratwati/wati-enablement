@@ -1,0 +1,23 @@
+# Ignore real project data — these stay on your Mac, never go to GitHub
+projects/*/brief.md
+projects/*/positioning.md
+projects/*/screenshots/*.png
+projects/*/screenshots/*.jpg
+projects/*/screenshots/*.jpeg
+projects/*/screenshots/*.gif
+projects/*/screenshots/*.webp
+projects/*/*.pptx
+projects/*/*.docx
+projects/*/*.pdf
+
+# Keep the template (empty forms are fine to share)
+!projects/_template/brief.md
+!projects/_template/positioning.md
+!projects/_template/screenshots/README.md
+
+# Mac system files
+.DS_Store
+**/.DS_Store
+
+# Launches context files (contain internal roadmap info)
+launches/*/context.md

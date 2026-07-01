@@ -1,0 +1,51 @@
+{
+  "skill": "enablement-deck",
+  "version": "1.0",
+  "evals": [
+    {
+      "id": "deck-001",
+      "description": "Creates a deck when a complete brief is provided",
+      "input": "Create an enablement deck for WhatsApp Business Calling. Audience: existing customers on Pro plan. Format: 30-min webinar. Outcome: customers set up calling and make their first call.",
+      "expect": {
+        "contains": ["cover slide", "agenda", "why this matters", "setup", "best practices", "next steps"],
+        "format": ".pptx",
+        "slide_count_min": 15,
+        "slide_count_max": 25
+      }
+    },
+    {
+      "id": "deck-002",
+      "description": "Asks for missing context when brief is incomplete",
+      "input": "Create an enablement deck for AI Support Agent.",
+      "expect": {
+        "asks_for": ["audience", "session format", "key outcome"]
+      }
+    },
+    {
+      "id": "deck-003",
+      "description": "Loads launch context file if it exists",
+      "input": "Create a deck for the campaigns launch.",
+      "expect": {
+        "reads_file": "launches/campaigns/context.md"
+      }
+    },
+    {
+      "id": "deck-004",
+      "description": "Runs brand audit after generating deck",
+      "input": "Create an enablement deck for Instagram DMs. Audience: new customers. Format: onboarding call.",
+      "expect": {
+        "runs": "wati-brand-auditor skill",
+        "asks_for_approval": true
+      }
+    },
+    {
+      "id": "deck-005",
+      "description": "Offers feedback loop at end",
+      "input": "The deck looks good but the best practices slide felt too generic.",
+      "expect": {
+        "updates": "launches context or flags skill improvement",
+        "acknowledges_feedback": true
+      }
+    }
+  ]
+}
