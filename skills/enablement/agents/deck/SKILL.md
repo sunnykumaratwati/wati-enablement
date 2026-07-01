@@ -104,15 +104,10 @@ When a CONTEXT.md or brief file exists for this project, its rules override ever
 
 ## Design Instructions
 
-- Dimensions: 10 × 5.625 in (16:9)
-- Brand green: `#00C8B7`, near-black: `#0A0A0A`, white background, light-green fills: `#E6FAF7`
-- Calendar/feature dots: green `#00C8B7` / purple `#8B5CF6` / blue `#2C6EFA`
-- Cover + section dividers: dark background (`#0A0A0A`) with white text and green accent
-- Content slides: white background
+**Read `context/design-system.md` and follow it** — real Wati deck values (DM Sans, brand green `#00E785`, `#1D1D1D` text, pastel tints, 16×9). Exception: a project with its own locked palette in its CONTEXT/brief (e.g. the Campaigns launch uses `#00C8B7`) overrides the general design system — follow the project brief in that case.
 - Every product slide: clearly marked **[SCREENSHOT PLACEHOLDER]** — never invent product UI
 - No accent stripes, no title underlines, no color bars
-- Safe fonts: Calibri or Arial
-- Title: 28–38pt bold. Section heads: 14–17pt bold. Body: 12–13pt. Captions: 9–10pt muted
+- Align all copy to `context/positioning.md` (naming rules, banned words, revenue-pillar framing)
 
 ---
 

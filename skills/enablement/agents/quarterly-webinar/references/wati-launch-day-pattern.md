@@ -25,6 +25,8 @@ Pull real numbers from the release log. If a number isn't known, mark `[# — TB
 
 ### 3. Themes That Define the Quarter
 The whole quarter organized into **4–6 numbered themes**. This is the spine of the deck.
+
+**Theme ordering rule (important):** Lead with the **biggest launch / biggest MRR impact** of the quarter. The #1 theme should be whatever moves revenue most or is the marquee release — this is what the audience remembers. Order the remaining 3–5 themes by impact after that. (See the trend in past decks: Q1 led with AI at Wati; Q4 led with Channels/Customer Journey.) Confirm the lead theme with the PMM if it isn't obvious from the quarter feed.
 ```
 01  AI at Wati            — Voice agents, Copilot insights, agents that build themselves
 02  Multichannel          — WhatsApp, Instagram, Messenger, RCS, SMS, TikTok — start anywhere

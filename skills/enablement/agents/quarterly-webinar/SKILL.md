@@ -77,13 +77,17 @@ Use the pptx skill to generate the `.pptx`.
 
 ## Design
 
-- Dimensions: 10 × 5.625 in (16:9)
-- Brand green `#00C8B7`, near-black `#0A0A0A`, white background, light-green fills `#E6FAF7`
-- Title + theme dividers: dark background with white text + green accent
-- Feature slides: white background, three labelled blocks (PROBLEM/UPDATE/WHAT'S IN IT FOR YOU) in ALL-CAPS eyebrows
-- Plan tag: small pill, top-right or under the headline
-- Safe fonts: Calibri or Arial. No accent stripes, no title underlines.
+**Read `context/design-system.md` and follow it exactly** — it holds the real Wati deck values reverse-engineered from production decks. Key points:
+- Canvas: **16.0 × 9.0 in** (current quarterly standard)
+- Font: **DM Sans** (Light/Medium/SemiBold) — the real brand font. Note: DM Sans may substitute in LibreOffice QA, so trust the ~10% slack over the QA preview for text-fit; it renders correctly in PowerPoint on Wati machines.
+- Brand green **`#00E785`** (the one saturated accent), text **`#1D1D1D`**, footers **`#828282`** 9pt
+- Pastel tint blocks: mint `#CAFDE8`, sky `#E3F5FF`, lavender `#FDECFF`, cream `#FFF6DA`
+- Eyebrows: 11pt ALL-CAPS bold, color-coded (PROBLEM/UPDATE = blue `#4FC3FF`, WHAT'S IN IT FOR YOU = green `#00E785`)
+- Section dividers: giant 96pt "#N" on a tint or dark `#1D1D1D` block
+- Footer every slide: `www.wati.io  |  pmm@wati.io` bottom-left + page number bottom-right
 - Every feature/demo slide: `[SCREENSHOT PLACEHOLDER]` where product UI goes — never invent UI.
+
+**Align all copy to `context/positioning.md`** — the latest Wati positioning (naming rules, banned words, revenue-pillar framing).
 
 ---
 

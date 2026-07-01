@@ -21,3 +21,10 @@ projects/*/*.pdf
 
 # Launches context files (contain internal roadmap info)
 launches/*/context.md
+
+# Product Knowledge Base — populated files stay LOCAL (contain unreleased
+# features, pricing strategy, internal positioning). Only structure is shared.
+context/*.md
+!context/README.md
+!context/_TEMPLATE.md
+!context/design-system.md
