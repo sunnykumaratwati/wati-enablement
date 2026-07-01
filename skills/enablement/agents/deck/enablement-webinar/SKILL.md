@@ -28,8 +28,9 @@ Pull the launch's content in this order, stopping when you have enough:
 2. **Launch folder** — `~/projects/<launch>/` (CONTEXT.md, briefs, positioning).
 3. **Notion** — the feature's launch/positioning doc (Notion MCP) if the KB is thin.
 4. **Support docs** — WebSearch the Wati support article (support.wati.io) for accurate mechanics.
-5. **Battlecard / competitor-intel** — for the competitive deep-dive.
-6. **Ask Sunny** — if after all this a needed piece is missing (e.g. no customer story, no FAQs), say so and ask, or mark `[TBC]`. Never fabricate.
+5. **Launch Slack thread** — the launch/#product-updates-gtm discussion often holds the real edge-cases, FAQs, naming decisions, and VO/positioning lines (e.g. Drip: "always 'Drip Campaigns' not 'sequences'"; the undelivered-message + auto-retry FAQ; active-segment behaviour). Fold these into the enablement/FAQ slides.
+6. **Battlecard / competitor-intel** — for the competitive deep-dive.
+7. **Ask Sunny** — if after all this a needed piece is missing (e.g. no customer story, no FAQs), say so and ask, or mark `[TBC]`. Never fabricate.
 
 ### 2. Size the deck to the launch (analytical call)
 **The deck length scales with the launch's significance — you decide as PMM.** A big/flagship feature earns more slides (recap + a real deep-dive + demo + customer story + objections); a small feature gets a tight few. Don't pad a minor launch to full length, and don't shortchange a major one. State your reasoning and the planned slide count before building.
