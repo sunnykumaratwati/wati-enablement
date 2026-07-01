@@ -8,8 +8,12 @@ Decks are **enablement assets**. Inside enablement → **deck** → four individ
 
 All four inherit the principles below (accumulated feedback; do not violate). Each is trained individually for its own storyline/design — never overlap them.
 
-## 1. Template — never from scratch
-Clone the matching real reference deck and swap text/content in place (preserves logo, burst, DM Sans, layout). Building slides from code loses all of it. See `context/design-system.md` (source of truth = the `wati-brand-auditor` brand guidelines).
+## 1. Design is the whole game — replicate a designed layout, never strip to plain text
+**Order of work: (1) story → (2) content → (3) map each slide to a DESIGNED layout and fill it.**
+- Clone a **polished, designed layout slide** and fill ITS placeholders (cards, icon grids, columns, quote blocks, tables) — keep every design element intact. **Never** reduce a designed slide to a bare title + paragraph, and never delete the design shapes. A plain title+body slide is a FAILED slide.
+- **Design base / template library:** `~/Desktop/Example Data/Wati Deck - Sales Template 2026.pptx` — a full library of designed layouts (covers, section separators, icon grids, 3/4-point layouts, quote+highlights, image grids, funnels, comparison tables, next-steps, thank-you). Also `WhatsApp Business Calling.pptx`, `Wati for Marketing_ Deck Draft_ Final.pptx`.
+- For each planned slide, pick the layout whose **shape matches the content** (2 items → 2-column; 3 benefits → 3-icon-grid; a quote → quote layout; specs → table) and fill the labelled placeholders. Match content to a designed layout — don't force content into a text box.
+- Building from code, or swapping only the title/body while removing the visuals, loses the design. Don't.
 
 ## 2. Match design exactly
 DM Sans (install it — a serif render = missing font, not a broken deck). Brand palette only (`#00e785`, `#1d1d1d`, pastel tints). The **burst** on every content heading. Logo per slide type. No shadows; rounded tinted cards.
