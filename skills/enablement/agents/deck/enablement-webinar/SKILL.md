@@ -18,12 +18,30 @@ Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand co
 - Slides 1–9 = the real session (storyline). Slides 10–48 = a reusable **layout library** — clone the layout that fits each section and swap the content.
 
 ## Method
-1. Read the pattern file + `DECK-PRINCIPLES.md`.
-2. **Gather content** from `context/*.md` (what shipped / what's coming — kept current by the weekly refresh), the launch project (`~/projects/…`), the **battlecard / competitor-intel** for the competitive deep-dive, one real customer story, and where assets live. Borrow from Granola / a WebSearched support article when thin. Never fabricate — mark `[TBC]`.
-3. **Follow the internal storyline** (pattern file): themed cover → what is this session → agenda → what we shipped → what's coming → competitive battlecard → customer story → where to find assets → Q&A → thank you. For a single-feature enablement, swap recap/roadmap for the feature (what it is, how to demo, plan, objections/FAQs, what to pitch against) — keep the internal arc.
-4. **Build by templating** the reference deck: clone its slides / layout-library layouts and swap text in place (preserves DM Sans, burst, logo, brand tints). Fill grids evenly.
-5. **Render + QA** every slide (LibreOffice → PyMuPDF PNG), run `wati-brand-auditor`, fix issues before showing Sunny.
-6. Save to `~/projects/<launch>/outputs/enablement-session-<launch>.pptx`.
+
+### 1. Gather content (data-sourcing fallback chain)
+Pull the launch's content in this order, stopping when you have enough:
+1. **Knowledge base** — the feature's `context/*.md` (what it does, value props, plan, proof, positioning; "Recently Shipped" for dates). Kept current by the weekly refresh.
+2. **Launch folder** — `~/projects/<launch>/` (CONTEXT.md, briefs, positioning).
+3. **Notion** — the feature's launch/positioning doc (Notion MCP) if the KB is thin.
+4. **Support docs** — WebSearch the Wati support article (support.wati.io) for accurate mechanics.
+5. **Battlecard / competitor-intel** — for the competitive deep-dive.
+6. **Ask Sunny** — if after all this a needed piece is missing (e.g. no customer story, no FAQs), say so and ask, or mark `[TBC]`. Never fabricate.
+
+### 2. Size the deck to the launch (analytical call)
+**The deck length scales with the launch's significance — you decide as PMM.** A big/flagship feature earns more slides (recap + a real deep-dive + demo + customer story + objections); a small feature gets a tight few. Don't pad a minor launch to full length, and don't shortchange a major one. State your reasoning and the planned slide count before building.
+
+### 3. Plan the storyline (LLM the fit)
+Use the internal arc from the pattern file as the spine, then **reason about what actually fits THIS launch** from the gathered content: themed cover → what is this session → agenda → what we shipped → what's coming → competitive battlecard → customer story → where to find assets → Q&A → thank you. Include a section only if you have the data for it (not every launch has a customer quote or FAQs — adapt; don't force empty sections). For a single-feature enablement, swap recap/roadmap for the feature (what it is, how to demo, plan, objections/FAQs, what to pitch against).
+
+### 4. Match each slide to a layout-library template
+For every slide you plan, **pick the matching template page from the reference deck's layout library (slides 10–48)** by content type — multi-column recap, quote/case-study layout, heading+body, section divider, contact/thank-you. Choose the layout whose shape fits the content and value props; clone it and swap the copy. Don't invent a layout when a library one fits.
+
+### 5. Build by templating
+Clone the chosen reference slides/layouts and swap text in place (preserves DM Sans, burst, logo, brand tints). Value/enablement-first copy. Fill grids evenly.
+
+### 6. Render + QA
+Render every slide (LibreOffice → PyMuPDF PNG), run `wati-brand-auditor`, fix issues, show Sunny the render, then save to `~/projects/<launch>/outputs/enablement-session-<launch>.pptx`.
 
 ## Content notes
 - **Value/enablement first** — equip the rep: what it means for the customer, how to sell it, what to pitch it against. Not a feature dump.
