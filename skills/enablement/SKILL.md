@@ -36,10 +36,11 @@ Then show this menu:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   WATI ENABLEMENT ASSETS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  1. Deck                    → Launch / webinar / adoption / 1-to-1 deck (.pptx)
-  2. Wati Launch Day         → Quarterly product-updates webinar deck (.pptx)
-  3. Solution Brief          → Coming soon
-  4. One-Pager               → Coming soon
+  1. Wati Launch Day         → Quarterly product-updates webinar deck (.pptx)
+  2. Onboarding-Deck Slide   → 1–3 feature slide(s) for the marketing/onboarding deck
+  3. Deck (other)            → Product-launch webinar / enablement / adoption / 1-to-1
+  4. Solution Brief          → Coming soon
+  5. One-Pager               → Coming soon
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Which would you like to create?
 ```
@@ -52,10 +53,11 @@ Based on the user's choice, read the corresponding agent skill and follow its in
 
 | Choice | Agent skill to read and follow |
 |--------|-------------------------------|
-| Deck / 1 | `skills/enablement/agents/deck/SKILL.md` |
-| Wati Launch Day / 2 | `skills/enablement/agents/quarterly-webinar/SKILL.md` |
-| Solution Brief / 3 | `skills/enablement/agents/solution-brief/SKILL.md` |
-| One-Pager / 4 | Not yet available — tell the user it's coming soon |
+| Wati Launch Day / 1 | `skills/enablement/agents/quarterly-webinar/SKILL.md` |
+| Onboarding-Deck Slide / 2 | `skills/enablement/agents/onboarding-deck/SKILL.md` |
+| Deck (other) / 3 | `skills/enablement/agents/deck/SKILL.md` |
+| Solution Brief / 4 | `skills/enablement/agents/solution-brief/SKILL.md` |
+| One-Pager / 5 | Not yet available — tell the user it's coming soon |
 
 Read the full agent SKILL.md and execute it from the top, using the context you've already gathered.
 
