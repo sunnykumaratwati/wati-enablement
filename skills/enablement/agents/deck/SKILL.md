@@ -1,151 +1,131 @@
 ---
 name: enablement-deck
-description: Creates a Wati CSA enablement / adoption deck as a .pptx file. Use when the user wants to create an adoption deck, feature enablement deck, webinar deck, or customer session deck for a specific Wati feature.
+description: Creates Wati enablement and launch decks as .pptx files. Use when someone says "create a deck", "build a launch deck", "make a webinar deck", "create slides for onboarding", "add slides to the onboarding deck", or "create an enablement deck for [feature]".
 ---
 
 # Wati Enablement Deck Agent
 
-You create polished, on-brand CSA enablement decks for Wati — the kind used in customer webinars, onboarding sessions, and feature adoption calls.
+You create Wati decks. Before doing anything, determine the deck type — each has a different structure, slide count, and purpose.
 
-The benchmark for output quality is the **WhatsApp Business Calling deck** and the **AI Support Agent Adoption Deck**. Every deck you produce should feel like those: structured, specific, proof-backed, and action-oriented.
-
-Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context found."`
+Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context file found."`
 
 ---
 
-## Context Required
+## Step 1 — Find existing context
 
-Before building the deck, you need the following. Check if `brief.md` and `positioning.md` exist in the project folder. If they exist, read them and skip asking for what's already there. Ask only for what's genuinely missing.
+Before asking the user anything, check if a project folder exists with a brief:
 
-**From `brief.md`:**
-- [ ] Feature / topic of the deck
-- [ ] Audience (new customers, existing customers in onboarding, webinar attendees, specific segment)
-- [ ] Session format (webinar, 1-to-1 customer call, internal training, async share)
-- [ ] Key outcome — what should the audience be able to DO after this session?
-- [ ] Any specific sub-features or use cases to highlight
+```bash
+ls ~/projects/
+```
 
-**From `positioning.md` or user:**
-- [ ] The core problem this feature solves for the customer
-- [ ] 2–3 key benefits (with numbers if available)
-- [ ] Any customer stories or quotes relevant to this feature
+Look for a folder matching the feature/topic. If found, read:
+- `CONTEXT.md` — locked positioning, banned words, dates, facts
+- `CAMPAIGNS-SALES-DECK-BRIEF.md` or `SLIDE-DECK-BRIEF.md` — slide-by-slide spec
+- Any `*-BRIEF.md` file — detailed deck instructions
 
-**From `screenshots/` folder:**
-- [ ] List of available product screenshots (the agent will embed these into the deck)
-
-If any of the above are missing, ask for them in one grouped message — don't ask one at a time.
+If a brief file exists, read it fully and follow its slide-by-slide spec exactly. Do not ask questions already answered in the brief.
 
 ---
 
-## Deck Structure
+## Step 2 — Determine deck type
 
-Every Wati enablement deck follows this structure, modeled on the WhatsApp Business Calling and AI Support Agent decks. Adjust slide count based on depth of topic (aim for 15–22 slides for a 30-min session).
+Ask if not already clear from the brief:
 
-### Slide 1 — Cover
-- Feature name as title
-- Tagline: one line that captures the key benefit
-- Session type + date (if known)
+> "What type of deck is this?"
+>
+> 1. **Launch / Sales Enablement deck** — internal + customer-facing, covers full feature story (10–15 slides)
+> 2. **Webinar deck** — audience-facing, 30–60 min session, heavier on setup + demo cues (15–25 slides)
+> 3. **Onboarding deck insert** — 1–3 slides to add into an existing master deck at a specific position
+> 4. **1-to-1 CSM deck** — shorter, conversational, for a single customer call (8–12 slides)
 
-### Slide 2 — What We'll Cover Today (Agenda)
-- 4–5 agenda items as a clean list
-- Typical items: Intro → Why this matters → Feature overview → Setup/How-to → Best practices → Demo → Q&A → Resources
+Each type has a different structure. Do not use the same template for all four.
 
-### Slide 3 — Why This Matters (The Problem)
-- The customer pain this feature solves
-- 1–2 stats that make the problem feel real and urgent
-- Keep it about the customer's world, not Wati
+---
 
-### Slide 4 — The Opportunity / The Shift
-- What changes when they use this feature
-- Frame it as: "Customers who [do this] see [outcome]"
-- Bridge from pain to solution
+## Deck Type Structures
 
-### Slide 5 — Introducing [Feature Name]
-- One-sentence product definition
-- The 3–4 core capabilities (not every sub-feature — the most impactful ones)
-- If a product screenshot exists, use it here
+### Type 1 — Launch / Sales Enablement Deck
+Follow the slide-by-slide spec in the brief exactly if one exists.
+If no brief, default structure:
+- S1 Title + tagline
+- S2 The problem / why now
+- S3 Two features overview (if multi-feature launch)
+- S4–S6 Feature 1 deep dive (intro → how it works → use cases)
+- S7–S9 Feature 2 deep dive (intro → how it works → use cases)
+- S10 Why Wati wins / competitive + trust
+- S11 Plans & eligibility
+- S12 Objection handling / FAQ (rep-facing)
+- S13 Next steps / CTA
+- S14 Thank you + contact + restrictions
 
-### Slide 6 — Section: Setup (separator slide)
-Dark background, section title only.
+### Type 2 — Webinar Deck
+- S1 Cover
+- S2 Agenda (what we'll cover)
+- S3 Why this matters (customer pain + stats)
+- S4 Feature intro
+- S5–S8 Setup steps (one major step per slide, with screenshot placeholder)
+- S9 Section: Feature Deep Dive
+- S10–S13 Feature deep dive (one capability per slide)
+- S14 Best practices
+- S15 Success story
+- S16 Live demo cue (presenter takes over)
+- S17 Q&A
+- S18 Resources
+- S19 Next steps / CTA
+- S20 Thank you
 
-### Slides 7–9 — Setup / How to Get Started
-- Step-by-step setup flow (3 slides max)
-- Each slide = one major step with a screenshot if available
-- Be specific: where to click, what to configure, what the result looks like
+### Type 3 — Onboarding Deck Insert (1–3 slides)
+- Each slide: eyebrow pill (plan + AI label if applicable) + bold title + italic tagline + pain line + body + 3 benefit cards + screenshot placeholder + footer
+- Match the design system of the master deck exactly
+- Note where slides insert (e.g. "between slide 47 and 48")
 
-### Slide 10 — Section: Feature Deep Dive (separator slide)
-Dark background, section title only.
+### Type 4 — 1-to-1 CSM Deck
+- 8–12 slides, conversational tone
+- Lead with customer's specific situation, not generic pain
+- Feature walkthrough: 3–4 capabilities max
+- One customer story
+- Clear next step
 
-### Slides 11–14 — Feature Deep Dive
-- 1 slide per major capability
-- Structure per slide: capability name → what it does → why it matters → screenshot if available
-- Use the features from the brief — don't invent ones
+---
 
-### Slide 15 — Section: Best Practices (separator slide)
-Dark background, section title only.
+## Hard Rules (apply to all deck types)
 
-### Slides 16–17 — Implementation Best Practices
-- 2 slides, 3 best practices each
-- These should be specific and actionable ("Set confidence threshold to 70–80%", not "configure correctly")
-- Source from positioning.md or Wati's known product knowledge
+When a CONTEXT.md or brief file exists for this project, its rules override everything else:
 
-### Slide 18 — Success Story / Proof
-- One customer story: challenge → solution → result
-- Use a real Wati customer if one is relevant (see brand context)
-- Include a quote if available
-- Metrics: before and after, or key outcome number
-
-### Slide 19 — Live Demo (placeholder)
-- "Live Demonstration" section separator
-- Just the section title — the presenter takes over here
-
-### Slide 20 — Q&A
-- Simple Q&A slide
-- Can include: "Send your questions in the chat" or session-specific prompt
-
-### Slide 21 — Resources
-- support.wati.io
-- Setup guide link (if available from brief)
-- Best practices doc (if available)
-- 3 items max
-
-### Slide 22 — Next Steps / CTA
-- Clear, specific next action
-- Existing customers: raise a ticket / book a 1-to-1 call / start setup
-- Include QR code placeholder or link if appropriate
-
-### Slide 23 — Thank You
-- www.wati.io | hello@wati.io
-- Clean close
+- Follow locked positioning exactly — tagline, sub, closing line
+- Never use banned words listed in the context
+- Never fabricate stats or customer quotes — mark as `[STAT — TBC]`
+- Respect plan eligibility (e.g. "Pro & Business only" vs "every plan")
+- Respect AI scope — only apply AI claim to features explicitly marked as AI
+- Use exact feature names from the brief, not variations
 
 ---
 
 ## Design Instructions
 
-Read and follow all visual design instructions from the pptx skill. Additionally:
-
-- **Color palette**: Dark navy (`#1A1A2E`) for cover, section separators, thank-you slide. White (`#FFFFFF`) for all content slides.
-- **Accent color**: `#00B09B` (Wati teal-green) for headings, CTA buttons, callout numbers
-- **Section separators**: Full dark background, large centered white title, no other content
-- **Screenshots**: Embed product screenshots at 70–80% slide width, centered, with a light drop shadow. Never stretch or crop awkwardly.
-- **Stats**: Display as large callout numbers (60pt+) with small label below — the WhatsApp Calling deck style
-- **Every content slide needs a visual**: screenshot, stat callout, icon grid, or case study quote — no text-only slides
+- Dimensions: 10 × 5.625 in (16:9)
+- Brand green: `#00C8B7`, near-black: `#0A0A0A`, white background, light-green fills: `#E6FAF7`
+- Calendar/feature dots: green `#00C8B7` / purple `#8B5CF6` / blue `#2C6EFA`
+- Cover + section dividers: dark background (`#0A0A0A`) with white text and green accent
+- Content slides: white background
+- Every product slide: clearly marked **[SCREENSHOT PLACEHOLDER]** — never invent product UI
+- No accent stripes, no title underlines, no color bars
+- Safe fonts: Calibri or Arial
+- Title: 28–38pt bold. Section heads: 14–17pt bold. Body: 12–13pt. Captions: 9–10pt muted
 
 ---
 
-## Output
+## After generating
 
-Use the pptx skill to generate the deck as a `.pptx` file.
-
-Save the output to:
-```
-projects/<project-name>/<feature-name>-enablement-deck.pptx
-```
-
-After generating, run QA per the pptx skill's verification loop. Fix any overflow, overlap, or missing content before declaring done.
+1. Convert to images and run visual QA (pptx skill verification loop)
+2. Run `wati-brand-auditor` skill on thumbnails if available
+3. Show thumbnails to user for approval
+4. Ask: "Anything to update — copy, structure, design? I'll log it to the project context."
+5. Save output to `~/projects/<project-folder>/outputs/<deck-name>.pptx`
 
 ---
 
 ## References
 
-For detailed slide frameworks and anti-patterns, read:
 `skills/enablement/agents/deck/references/slide-frameworks.md`
