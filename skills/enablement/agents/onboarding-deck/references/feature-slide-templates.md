@@ -55,6 +55,11 @@ Big value title left + a grid of 4 use-case icons (Send invoices / Shipping / Re
 ### T11 — Capability panels
 Title + "You can use [X] to:" 3 value bullets, then 2–3 tinted panels, each = a sub-capability with a screenshot + short description. Use for a feature with distinct sub-modes. (Ref: "Use 'Rules' to trigger actions…".)
 
+## Design details not to miss
+- **Soft circular glow behind mockups.** The deck places a large soft-tinted circle/oval *behind* each phone mockup/screenshot (e.g. yellow glow on Voice AI, green on engagement slides). Recreate it: add an OVAL slightly larger than the mockup, filled a light tint (`#cafde8` / `#fff6da` / `#e3f5ff`), no line, and **send it to the back** so it sits behind the mockup and text. A flat rounded rect with no glow looks off-brand.
+- **Vary the accent tint per slide** so consecutive feature slides don't look identical (Campaign Calendar = yellow spec-table template; Drip = green mockup+glow template).
+- Keep the intro/value text in the **left column** — don't let it run under the right-column mockup/glow.
+
 ## Content each feature slide needs (pull from `context/*.md` + support article)
 - Feature name (exact, per naming rules in `context/positioning.md`)
 - One-line "what it does for the customer" (benefit-led)
