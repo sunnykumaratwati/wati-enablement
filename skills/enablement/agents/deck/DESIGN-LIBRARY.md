@@ -1,62 +1,54 @@
 # Wati Deck Design Library
 
-The **only** design source for Wati decks. To place a slide, you MATCH its content to a layout here, then **clone the exact source slide** (deck + slide #) and fill it — a literal replica, same shapes/fonts/colours. Do not invent layouts and do not use any deck not listed here.
+The **only** design source for Wati decks. To place a slide: MATCH its content to a layout below → **clone the exact source slide** → fill placeholders. A literal replica (same shapes/fonts/colours). Never invent layouts; never use a deck not listed here.
+
+## PRIMARY source = the MASTER TEMPLATE
+**`~/Desktop/Example Data/Wati Deck - Sales Template 2026.pptx`** — 66 designed layout slides (Lorem placeholders), 10 × 5.625 in, DM Sans, brand palette, burst on headings, logo. **Clone from here first.** The full map is below.
+
+### Master-template layout map (clone by slide #)
+| Layout | Fits (content shape) | Master slide(s) | Key placeholders |
+|--------|----------------------|-----------------|------------------|
+| Cover | deck title + subheading + event/date | **1** | title, Sub Heading, WITH, Event\|Location\|Date |
+| Agenda / index | 3–5 agenda lines | **2** | Line 1–4 |
+| Section divider | section title on colour block | **3–6** (green/blue/pink/yellow variants) | Section Separator title |
+| Person / speaker + quote | a named person, role, quote | **7–10** | Bold Title, Name Here, TITLE, Logo |
+| 4-icon-grid | 4 capabilities/benefits (icon each) | **11–14** | title, sub-heading, 4× LOREM label + desc |
+| Quote / case-study | 1 customer: quote + 3 highlight stats | **15–18** | quote, Name/Title, 3× highlight |
+| Text + highlight (single point) | one point + a highlighted sub-line | **19–22** | Lorem body, LOREM highlight, sub-heading |
+| Image grid (4 image cards) | 4 screenshots/visuals with captions | **23–26** | 4× IMAGE TITLE |
+| Full-image / minimal | a big screenshot or minimal statement | **27–34** | Bold Title + sub-heading (image area) |
+| 3-col highlight | 3 points, icon + label + desc | **35–38** | Text highlight title, 3× (icon, LOREM, desc) |
+| Two-item | 2 points/features | **39–41** | title, 2× Lorem block |
+| 3-point-icons + tag | 3 points w/ icon + a TYPE/plan pill | **42** | Title, POINT 1–3, Description, TYPE ×3, Icon ×3 |
+| Funnel | a funnel / staged narrowing | **43** | FUNNEL, POINT 1–4, quote |
+| Point heading + bullets | one heading + bullet detail | **44** | Point Heading, Lorem bullets |
+| 4-point + image | 4 labelled points around an image | **45** | Point One–Four, IMAGE TITLE, quote |
+| Bullets + highlight + image | value bullets + highlight + visual | **46–47** | Description in Bullets, Highlight Point |
+| Single text content | one block of copy | **48–50** | Lorem body, Bold Title |
+| Demo | live demo / QR trigger | **51** | Book a Demo, keyword, SCAN QR |
+| 3-point (plain) | 3 points, icon + 2-line each | **52** | Point 1–3 Description, Icon ×3 |
+| Icon-list + image | list of icon items beside a visual | **53** | Heading Highlight, IMAGE TITLE, icons |
+| Poll | a live poll prompt | **54** | Poll – Description |
+| Bullets + quote | bullet points + a customer quote | **55** | Bullet Points, Name/Title, quote |
+| Comparison table | multi-column / tiered comparison | **56–57** | TITLE HERE ×3, BODY COPY, SUB-TITLE |
+| Next steps / CTA | closing actions + resources | **58–61** | Next Steps, KB, raise ticket, book call |
+| Thank you | close + contact | **62–66** | Thank You, www.wati.io \| hello@wati.io |
+
+## Standard intro/end (fixed across ALL deck types — don't re-match)
+Cover **1** · Agenda **2** · Section dividers **3–6** · Demo **51** · Next steps **58–61** · Thank you **62–66**. Only the **middle content slides** get matched.
+
+## Secondary real-content examples (for tone/reference only — clone design from the master)
+When you want a real filled example of a layout to mirror the copy density/tone, look at:
+- **WhatsApp Business Calling** — text+mockup feature detail (S7–11), big-stat (S2/S4), quote (S15–16), UIC-vs-BIC comparison (S5)
+- **Wati for Marketing_ Deck Draft_ Final** — numbered process band (S6), industry quote/case-study (S43–45), vs-competitor comparison (S39)
+- **Wati_ CTWA_ Agency Deck** — 4-icon-grid + stat rail (S5), big-stat row (S20), 2-lane flow (S34)
+- **Wati_Instagram_Webinar_Deck** — agenda cards (S2), big-stat (S3), use-case columns (S7)
+- **AI Support Agent Adoption** — bullets+screenshot (S4), setup steps, resources (S25)
+- **AI Support Agent Value Proposition & Use Cases** — 3-point (S4), competitor matrix (S10), dark testimonial (S22)
 
 ## Method (per slide)
-1. Write the storyline (differs per deck type).
-2. Write the slide's content.
-3. **Match** the content to a layout below (by shape of the content: 3 benefits → 3-point-icons; a metric → big-stat; a customer → quote/case-study; A vs B → comparison; a feature + screenshot → text+mockup…).
-4. **Clone** the primary source slide for that layout and fill its placeholders. Fit copy to the placeholder (shorten to fit); fill every icon/card slot.
-5. Render + QA each slide.
-
-## Source decks (Example Data/)
-1. `Wati Deck - Sales Template 2026.pptx` — the clean template library (Lorem placeholders; best for generic layouts)
-2. `WhatsApp Business Calling.pptx`
-3. `Wati for Marketing_ Deck Draft_ Final.pptx`
-4. `Wati_ CTWA_ Agency Deck.pptx`
-5. `Wati_Instagram_Webinar_Deck.pptx`
-6. `AI Support Agent Adoption Deck.pptx`
-7. `AI Support Agent Value Proposition & Use Cases .pptx`
-
-All are 10 × 5.625 in, DM Sans, brand palette, burst on content headings, Wati logo bottom-right (or top per template).
-
----
-
-## Standard intro/end slides (SAME across all deck types — don't re-match these)
-| Slide | Primary clone | Alt |
-|-------|---------------|-----|
-| **Cover** | Sales Template S1 | WhatsApp Calling S1 |
-| **Agenda / index** | Instagram Webinar S2 (2×3 numbered cards) | Sales Template S2 |
-| **Section divider** | Sales Template S3–S6 (solid brand-tint + title chip) | WhatsApp Calling S6/14/18 (teal panel + rounded chip) |
-| **Demo** | Sales Template S51 (QR + keyword) | any deck's full-bleed demo slide |
-| **Next steps / CTA** | WhatsApp Calling S17 (Configure→Engage + button) | Instagram S23 (two CTA buttons) |
-| **Resources** | AI Adoption S25 (linked list + button) | AI ValueProp S20 |
-| **Q&A** | WhatsApp Calling S19 | Sales Template |
-| **Thank you** | Sales Template S62 | AI ValueProp S24 |
-
----
-
-## Middle-content layout catalog (match content → clone source)
-| Layout | Fits (content shape) | Primary clone | Alternates | Fill notes |
-|--------|----------------------|---------------|------------|-----------|
-| **big-stat** | 3–4 headline metrics / proof numbers | Instagram S3 (eyebrow + 4 stat blocks + sources) | WhatsApp Calling S4 (3 tinted pill stats); Marketing S15 | Real stats only; big number + small label |
-| **3-col-highlight** | 3 proof points or 3 use-cases/personas | WhatsApp Calling S2 (3 big % stats + intro) | Instagram S7 (3 vertical use-case cards); Sales Template S35–38 | Fill all 3 cols + icons |
-| **3-point-icons** | 3 benefits/points, icon each | AI ValueProp S4 | CTWA S13; Instagram S6; Sales Template S42/S52 | icon + head + one line each |
-| **4-icon-grid** | 4 capabilities/benefits/items | Marketing S14 (4 tiles + 2 big stats) | CTWA S5/S22; WhatsApp Calling S12; Instagram S20 (2×3); Sales Template S11 | fill every tile + icon; no empty cells |
-| **text+mockup (feature detail)** ⭐ workhorse | one feature: value + product screenshot | WhatsApp Calling S7–S11 | Marketing S7–S10; AI Adoption S13–16; Sales Template | title + 3 bullets/value left, screenshot right; add soft glow behind mockup |
-| **text+visual-grid** | feature with several sub-elements/use-cases | AI ValueProp S7 (diagonal accent + chat visual) | AI Adoption S10/18; Marketing S27/S32 | left copy, right visual grid |
-| **two-column-comparison** | A vs B / with-vs-without / mode-vs-mode | WhatsApp Calling S5 (UIC vs BIC cards) | Marketing S39 (vs BSP/cPaaS); Instagram S21 (✗/✓) | two labeled cards, mirrored rows |
-| **comparison-table** | feature/price matrix, 3+ columns | AI ValueProp S10 (teal header matrix) | Instagram S5 (What You Get/Miss); CTWA S26; Sales Template S56 | teal header row; ✓/✗ favouring Wati |
-| **quote/case-study** ⭐ | one customer: result metrics + quote | Marketing S43–S45 (industry-tagged) | WhatsApp Calling S15/16; CTWA S17–19; AI ValueProp S22 (dark) | name + role + logo + metrics + pull quote; real only |
-| **process/flow-diagram** | a sequence / before→after / tracking flow | Marketing S6 (numbered 1-2-3-4 band) | Instagram S13 (4 nodes + connectors); CTWA S34 (2-lane); Marketing S31 (CAPI) | numbered nodes + connectors |
-| **bullets+image** | value bullets + a supporting photo/screenshot | AI Adoption S4 (checkmark bullets + screenshot) | AI ValueProp S2 (pain framing); WhatsApp Calling S13 | checkmark bullets left, image right |
-
-⭐ = most-used. If two layouts fit, prefer the one whose source deck matches the asset's tone (webinar → Instagram/Calling; marketing → Marketing; support/AI → AI decks).
-
----
+1. Storyline (differs per deck type). 2. Slide content. 3. **Match** content → a layout above. 4. **Clone** the master-template slide # and fill placeholders (fit copy to the slot; fill every icon/card). 5. Render + QA. See `DECK-PRINCIPLES.md`.
 
 ## Rules
-- **Exact replica:** clone the source slide's shapes; only swap text/fill placeholders. Never rebuild a layout from scratch.
-- **Only these 7 decks.** No external design references.
-- **Storyline differs per deck type; design base is shared.** (onboarding-deck slide · product-deck · enablement-deck all draw from this library.)
-- Fit copy to the placeholder; fill every slot; render + QA before done (see `DECK-PRINCIPLES.md`).
+- **Master template first**, exact replica (clone shapes; only swap text/fills). Real decks are examples, not the clone source unless a layout is missing from the master.
+- Only these decks. Storyline differs per deck type; design base is shared (onboarding-deck · product-deck · enablement-webinar).
