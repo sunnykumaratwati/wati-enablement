@@ -5,6 +5,9 @@ description: Creates 1 (sometimes 2–3) feature slide(s) to insert into Wati's 
 
 # Onboarding-Deck Feature Slide
 
+**Customer-facing:** lead with value & positioning (external messaging), NOT how the product was built. Omit internal mechanics (engines, confidence scores, build details) unless they're a customer benefit.
+
+
 You produce a single feature slide (occasionally 2–3 for a flagship feature) to be inserted into Wati's **Wati for Marketing Onboarding Deck**. The slide equips the sales team: what the feature is, its benefits, and **what to pitch it against**. You hand back just the slide(s); Sunny pastes them into the master deck.
 
 > **This is its own deck type — don't overlap.** Onboarding-deck feature slides ≠ quarterly webinar ≠ product-launch webinar ≠ enablement session. Different storyline and purpose (a sales-pitch aid, not a narrative deck). See the router's type note.

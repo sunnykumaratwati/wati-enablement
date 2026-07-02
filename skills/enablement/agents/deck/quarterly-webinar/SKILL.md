@@ -51,6 +51,9 @@ The deck is built from a **"Features in Focus" doc** — the curated, themed lis
 - If the user asks *"what launched this quarter?"* → generate the doc from `context/*.md` (dated "Recently Shipped" sections) + Slack #product-updates-gtm, applying the curation rules: include only features impacting **existing paying customers**; **exclude trials, signups, packaging/pricing, pure-marketing**; group into 3–5 themes. **The lead theme is the PMM's call — ask which theme leads; don't assume.** Default proposal: lead with the biggest-MRR/marquee theme, then order the rest by impact, and let the user confirm or override. (Q2 2026: PMM chose Astra to lead.)
 - If the user already has a doc (e.g. a Notion "Features in Focus" page), use it as the base.
 
+### Step 1b — De-dupe against prior months (no repeats)
+Before finalizing the feature list, **check what was already presented in the previous months' / last quarter's Launch Day decks** and EXCLUDE anything already covered — a feature appears once, never repeats month over month. For a July deck, review launches already shown for April, May, June (from `context/*.md` "Recently Shipped" dates + prior quarterly decks) and drop overlaps. Only include features new since the last deck.
+
 ### Step 2 — Reconcile before building (the "any updates to add?" check)
 Cross-check the doc against the latest `context/*.md` and Slack #product-updates-gtm for anything launched since the doc was written or missing from it. **Surface proposed additions/changes to the user and confirm before building the deck.**
 

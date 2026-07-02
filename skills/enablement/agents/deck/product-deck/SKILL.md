@@ -5,6 +5,9 @@ description: Creates Wati's complete product deck — the customer- and sales-fa
 
 # Product Complete Deck — Customer & Sales Facing
 
+**Customer-facing:** lead with value & positioning (external messaging), NOT how the product was built. Omit internal mechanics (engines, confidence scores, build details) unless they're a customer benefit.
+
+
 **First read the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md`** — the universal deck-building rules (template not scratch, value-first, render-verify, glow-behind-mockups, fill grids, don't-mix-types). They apply to every deck.
 
 **Design: match each content slide to a layout in `skills/enablement/agents/deck/DESIGN-LIBRARY.md` and clone the exact source slide (1:1 replica). Storyline is this agent's own; design base is shared across onboarding-deck / product-deck / enablement-webinar. Only the 7 approved decks.**
