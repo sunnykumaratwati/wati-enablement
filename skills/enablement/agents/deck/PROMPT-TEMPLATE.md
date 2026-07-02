@@ -16,6 +16,8 @@
 
 **5. Build method** — clone the real source slide (shapes/fills/fonts untouched) → replace ONLY text, run-by-run → fit copy to each placeholder (never overflow) → fill every slot (no empty box / no leftover Lorem/Icon/TYPE) → **screenshots = a clean labelled placeholder** (Sunny drops the export) → **normalize all runs to the deck's one font**. Feature slides use text-left + a LARGE product-mockup panel (like WhatsApp Calling S7), NOT tiny emoji in empty cards.
 
+**5b. CONTEXT PACK (inline — the builder CANNOT read our files or Notion).** Paste the ACTUAL content the builder needs, self-contained: the feature descriptions, the positioning & value props (per feature), naming rules + banned words, plan eligibility, edge-cases/FAQs, real proof/stats. Pull it from `context/<category>.md` + `context/positioning.md` + the launch project + PRD — but **embed the text, never a file path or "see the KB".** If it's not in the prompt, the design context doesn't have it.
+
 **6. Inputs & rules** — positioning + banned words (from `context/positioning.md` / launch CONTEXT), plan eligibility, real-data-only (mark `[STAT — TBC]`), screenshots to place, naming rules.
 
 **7. 100% design gate** — render every slide (both fonts installed) → run `wati-brand-auditor` + per-slide check vs the source layout → fix until every slide scores 100% on font/palette/burst/logo/overflow/empty-slots/leftovers/alignment. Only ship at 100%.
