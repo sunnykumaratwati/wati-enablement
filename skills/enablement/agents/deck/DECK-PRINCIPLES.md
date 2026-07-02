@@ -14,11 +14,10 @@ All four inherit the principles below (accumulated feedback; do not violate). Ea
 ## One design system, many source decks
 All Wati decks share **ONE design system** (verified across 10 decks — see `DESIGN-LIBRARY.md`): 10×5.625 canvas, DM Sans *or* Outfit (both installed; one font per deck; default DM Sans), fixed palette, the burst, tinted cards, footer. There is no single "template deck" — clone the **cleanest real instance** of the layout you need from any of the decks, then **normalize the deck to one font**. The shared invariants + the 100% gate guarantee consistency. (Storyline varies per deck type; design system is fixed.)
 
-## 1. Design — replicate a designed layout, never strip to plain text
-**Order of work: (1) story (gated) → (2) content → (3) map each slide to a DESIGNED layout in the ONE template and clone it.**
+## 1. Design — clone a real designed layout, never strip to plain text
+**Order of work: (1) story (gated) → (2) content → (3) match each slide to a DESIGNED layout in `DESIGN-LIBRARY.md`, clone the cleanest real instance, fill it, normalize the font.**
 - Clone a **polished, designed layout slide** and fill ITS placeholders (cards, icon grids, columns, quote blocks, tables) — keep every design element intact. **Never** reduce a designed slide to a bare title + paragraph, and never delete the design shapes. A plain title+body slide is a FAILED slide.
-- **Design source = the ONE template** (Wati AI Webinar deck). `DESIGN-LIBRARY.md` catalogs its layouts (layout → what content it fits → slide # to clone). Clone only from this template.
-- For each planned slide (after the story is approved): match its content shape to a layout → clone that template slide → fill placeholders.
+- **Design source = the shared Wati design system**, catalogued in `DESIGN-LIBRARY.md` (layout → what content it fits → cleanest source deck + slide #). Clone only from the approved Wati decks; normalize the finished deck to one font.
 - Building from code, or swapping only the title/body while removing the visuals, loses the design. Don't.
 
 ## 2. Match design exactly
