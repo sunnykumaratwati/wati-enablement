@@ -11,8 +11,8 @@ All four inherit the principles below (accumulated feedback; do not violate). Ea
 ## 0. STORY FIRST — hard gate (do not skip)
 **Before any content or design, write the storyline and get Sunny's sign-off.** Save it as `STORYLINE.md` in the project: the narrative beats (what each beat accomplishes), not slides, not design. Present it and STOP. Only after approval do you write slide content, then match designs. Storyline differs per deck type (internal enablement vs product vs onboarding); it is always step one. Jumping to slides is the #1 failure — don't.
 
-## The ONE template
-There is **one design template: the Wati AI Webinar deck** (`~/Desktop/Example Data/Wati AI_ The Conversational Intelligence Layer for Modern Businesses - Webinar Deck .pptx`). All decks clone their designs from this single template — nothing else. (Storyline varies; design template is fixed.)
+## One design system, many source decks
+All Wati decks share **ONE design system** (verified across 10 decks — see `DESIGN-LIBRARY.md`): 10×5.625 canvas, DM Sans *or* Outfit (both installed; one font per deck; default DM Sans), fixed palette, the burst, tinted cards, footer. There is no single "template deck" — clone the **cleanest real instance** of the layout you need from any of the decks, then **normalize the deck to one font**. The shared invariants + the 100% gate guarantee consistency. (Storyline varies per deck type; design system is fixed.)
 
 ## 1. Design — replicate a designed layout, never strip to plain text
 **Order of work: (1) story (gated) → (2) content → (3) map each slide to a DESIGNED layout in the ONE template and clone it.**
