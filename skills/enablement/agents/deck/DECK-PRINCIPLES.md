@@ -30,6 +30,10 @@ Lead with the outcome/positioning (what it brings, how much value), then support
 ## 5. Deck types don't overlap
 Each type (quarterly webinar · onboarding-deck slide · product/feature webinar · launch-enablement session) has its own storyline + design. Never reuse one type's template for another, and never use a marketing deck as reference for a webinar. See `DECK-TYPES.md`.
 
+## 5b. Fill the layout completely + fit the copy to it
+- **Fill every icon placeholder.** No empty icon boxes or empty card bodies — a designed layout with blank slots looks unfinished. If no icon assets, use on-brand emoji icons (Wati internal decks do this: 📅 ✨ 🔁 💬 💸 🎯 📊). Fill empty tall-card bodies with a centred icon.
+- **Fit copy to the placeholder, not the reverse.** If text overflows a pill/label/box (e.g. a narrow plan pill, a divider title, a column label), shorten the copy until it fits — don't let it spill or ghost. Match content length to the designed slot.
+
 ## 6. Verify by rendering — before "done"
 Render every slide (LibreOffice → PyMuPDF PNG) and QA with fresh eyes (overflow, empty cells, leftover graphics, mislabeled pills, naming/plan). Run `wati-brand-auditor` on the output. Never declare done on un-rendered code.
 
