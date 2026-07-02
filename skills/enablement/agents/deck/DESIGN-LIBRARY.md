@@ -1,54 +1,36 @@
-# Wati Deck Design Library
+# Wati Deck Design Library — the ONE template
 
-The **only** design source for Wati decks. To place a slide: MATCH its content to a layout below → **clone the exact source slide** → fill placeholders. A literal replica (same shapes/fonts/colours). Never invent layouts; never use a deck not listed here.
+**One design template only:** `~/Desktop/Example Data/Wati AI_ The Conversational Intelligence Layer for Modern Businesses - Webinar Deck .pptx` (28 slides, **16 × 9 in**, DM Sans, brand palette). Every deck clones its designs from THIS deck — nothing else. Storyline varies per deck type; design is fixed.
 
-## PRIMARY source = the MASTER TEMPLATE
-**`~/Desktop/Example Data/Wati Deck - Sales Template 2026.pptx`** — 66 designed layout slides (Lorem placeholders), 10 × 5.625 in, DM Sans, brand palette, burst on headings, logo. **Clone from here first.** The full map is below.
+**Process:** (0) story-first, gated — see `DECK-PRINCIPLES.md`. (1) content. (2) match each content slide to a layout below → clone that slide # → fill placeholders.
 
-### Master-template layout map (clone by slide #)
-| Layout | Fits (content shape) | Master slide(s) | Key placeholders |
-|--------|----------------------|-----------------|------------------|
-| Cover | deck title + subheading + event/date | **1** | title, Sub Heading, WITH, Event\|Location\|Date |
-| Agenda / index | 3–5 agenda lines | **2** | Line 1–4 |
-| Section divider | section title on colour block | **3–6** (green/blue/pink/yellow variants) | Section Separator title |
-| Person / speaker + quote | a named person, role, quote | **7–10** | Bold Title, Name Here, TITLE, Logo |
-| 4-icon-grid | 4 capabilities/benefits (icon each) | **11–14** | title, sub-heading, 4× LOREM label + desc |
-| Quote / case-study | 1 customer: quote + 3 highlight stats | **15–18** | quote, Name/Title, 3× highlight |
-| Text + highlight (single point) | one point + a highlighted sub-line | **19–22** | Lorem body, LOREM highlight, sub-heading |
-| Image grid (4 image cards) | 4 screenshots/visuals with captions | **23–26** | 4× IMAGE TITLE |
-| Full-image / minimal | a big screenshot or minimal statement | **27–34** | Bold Title + sub-heading (image area) |
-| 3-col highlight | 3 points, icon + label + desc | **35–38** | Text highlight title, 3× (icon, LOREM, desc) |
-| Two-item | 2 points/features | **39–41** | title, 2× Lorem block |
-| 3-point-icons + tag | 3 points w/ icon + a TYPE/plan pill | **42** | Title, POINT 1–3, Description, TYPE ×3, Icon ×3 |
-| Funnel | a funnel / staged narrowing | **43** | FUNNEL, POINT 1–4, quote |
-| Point heading + bullets | one heading + bullet detail | **44** | Point Heading, Lorem bullets |
-| 4-point + image | 4 labelled points around an image | **45** | Point One–Four, IMAGE TITLE, quote |
-| Bullets + highlight + image | value bullets + highlight + visual | **46–47** | Description in Bullets, Highlight Point |
-| Single text content | one block of copy | **48–50** | Lorem body, Bold Title |
-| Demo | live demo / QR trigger | **51** | Book a Demo, keyword, SCAN QR |
-| 3-point (plain) | 3 points, icon + 2-line each | **52** | Point 1–3 Description, Icon ×3 |
-| Icon-list + image | list of icon items beside a visual | **53** | Heading Highlight, IMAGE TITLE, icons |
-| Poll | a live poll prompt | **54** | Poll – Description |
-| Bullets + quote | bullet points + a customer quote | **55** | Bullet Points, Name/Title, quote |
-| Comparison table | multi-column / tiered comparison | **56–57** | TITLE HERE ×3, BODY COPY, SUB-TITLE |
-| Next steps / CTA | closing actions + resources | **58–61** | Next Steps, KB, raise ticket, book call |
-| Thank you | close + contact | **62–66** | Thank You, www.wati.io \| hello@wati.io |
+## Layout map (clone by slide #)
+| Layout | Fits (content shape) | Template slide(s) |
+|--------|----------------------|-------------------|
+| **Cover** | title + tagline + eyebrow | **1** |
+| **Big-stat** | 2–4 headline stats + a provocative line | **2**, **4**, **20** (trust strip) |
+| **3-column (trends / at-a-glance)** | 3 shifts, or 3 options compared (Focus/Who/Outcome) | **3**, **9** |
+| **Comparison table** | broken-choice / A-vs-B-vs-C matrix | **5** |
+| **Big statement / transition** | one bold turning-point line | **6** |
+| **Overview / 3-point intro** | "introducing X" + 3 what-it-does points | **7** |
+| **Section divider** | section title (PLATFORM OVERVIEW / PRICING) | **8**, **21** |
+| **Pillar intro + capability table** ⭐ | a feature: headline + Capability\|Description table | **10**, **13**, **18** |
+| **Feature detail + specs table** | a feature + a spec table (Latency/Languages…) | **14** |
+| **Demo** | "X Interactive Demo — Click to watch" | **11**, **15**, **17** |
+| **Outcomes (Metric\|Result + pull quote)** ⭐ | a feature's results + an ALL-CAPS quote | **12**, **16** |
+| **Persona story (Problem / Solution)** | one journey: Without-X vs With-X | **19** |
+| **Pricing table** | plan tiers / eligibility | **22**, **23** |
+| **Urgency + reasons** | "act now" + 2–3 reasons-why | **24** |
+| **Next steps / CTA stack** | closing actions + resources | **25**, **26** |
+| **Questions** | Q&A | **27** |
+| **Thank you** | close + contact | **28** |
 
-## Standard intro/end (fixed across ALL deck types — don't re-match)
-Cover **1** · Agenda **2** · Section dividers **3–6** · Demo **51** · Next steps **58–61** · Thank you **62–66**. Only the **middle content slides** get matched.
+⭐ **The pillar engine** = intro+capability table (10/13/18) → demo (11/15/17) → outcomes+quote (12/16). Reuse this trio per feature.
 
-## Secondary real-content examples (for tone/reference only — clone design from the master)
-When you want a real filled example of a layout to mirror the copy density/tone, look at:
-- **WhatsApp Business Calling** — text+mockup feature detail (S7–11), big-stat (S2/S4), quote (S15–16), UIC-vs-BIC comparison (S5)
-- **Wati for Marketing_ Deck Draft_ Final** — numbered process band (S6), industry quote/case-study (S43–45), vs-competitor comparison (S39)
-- **Wati_ CTWA_ Agency Deck** — 4-icon-grid + stat rail (S5), big-stat row (S20), 2-lane flow (S34)
-- **Wati_Instagram_Webinar_Deck** — agenda cards (S2), big-stat (S3), use-case columns (S7)
-- **AI Support Agent Adoption** — bullets+screenshot (S4), setup steps, resources (S25)
-- **AI Support Agent Value Proposition & Use Cases** — 3-point (S4), competitor matrix (S10), dark testimonial (S22)
-
-## Method (per slide)
-1. Storyline (differs per deck type). 2. Slide content. 3. **Match** content → a layout above. 4. **Clone** the master-template slide # and fill placeholders (fit copy to the slot; fill every icon/card). 5. Render + QA. See `DECK-PRINCIPLES.md`.
+## Standard intro/end (fixed across deck types)
+Cover **1** · Section dividers **8/21** · Demo **11/15/17** · Next steps **25/26** · Questions **27** · Thank you **28**.
 
 ## Rules
-- **Master template first**, exact replica (clone shapes; only swap text/fills). Real decks are examples, not the clone source unless a layout is missing from the master.
-- Only these decks. Storyline differs per deck type; design base is shared (onboarding-deck · product-deck · enablement-webinar).
+- Clone ONLY from this template; exact replica (swap text/fills, keep shapes/fonts/colours). Never invent layouts, never use another deck.
+- Fit copy to the placeholder; fill every slot; render + QA (see `DECK-PRINCIPLES.md`).
+- Story is approved BEFORE any of this.

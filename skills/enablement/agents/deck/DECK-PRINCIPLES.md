@@ -8,11 +8,17 @@ Decks are **enablement assets**. Inside enablement → **deck** → four individ
 
 All four inherit the principles below (accumulated feedback; do not violate). Each is trained individually for its own storyline/design — never overlap them.
 
-## 1. Design is the whole game — replicate a designed layout, never strip to plain text
-**Order of work: (1) story → (2) content → (3) map each slide to a DESIGNED layout and fill it.**
+## 0. STORY FIRST — hard gate (do not skip)
+**Before any content or design, write the storyline and get Sunny's sign-off.** Save it as `STORYLINE.md` in the project: the narrative beats (what each beat accomplishes), not slides, not design. Present it and STOP. Only after approval do you write slide content, then match designs. Storyline differs per deck type (internal enablement vs product vs onboarding); it is always step one. Jumping to slides is the #1 failure — don't.
+
+## The ONE template
+There is **one design template: the Wati AI Webinar deck** (`~/Desktop/Example Data/Wati AI_ The Conversational Intelligence Layer for Modern Businesses - Webinar Deck .pptx`). All decks clone their designs from this single template — nothing else. (Storyline varies; design template is fixed.)
+
+## 1. Design — replicate a designed layout, never strip to plain text
+**Order of work: (1) story (gated) → (2) content → (3) map each slide to a DESIGNED layout in the ONE template and clone it.**
 - Clone a **polished, designed layout slide** and fill ITS placeholders (cards, icon grids, columns, quote blocks, tables) — keep every design element intact. **Never** reduce a designed slide to a bare title + paragraph, and never delete the design shapes. A plain title+body slide is a FAILED slide.
-- **Design source = `DESIGN-LIBRARY.md`** (in this folder): a catalog of every reusable layout across the 7 approved Wati decks, each mapped to what content it fits + the exact source slide (deck + slide #) to clone. **Use ONLY those 7 decks** — no external design references.
-- For each planned slide: match its content shape to a layout in the library → clone that source slide → fill placeholders. Standard intro/end slides (cover, agenda, dividers, demo, Q&A, thank-you) are fixed across deck types (see the library); only the middle content slides are matched.
+- **Design source = the ONE template** (Wati AI Webinar deck). `DESIGN-LIBRARY.md` catalogs its layouts (layout → what content it fits → slide # to clone). Clone only from this template.
+- For each planned slide (after the story is approved): match its content shape to a layout → clone that template slide → fill placeholders.
 - Building from code, or swapping only the title/body while removing the visuals, loses the design. Don't.
 
 ## 2. Match design exactly
