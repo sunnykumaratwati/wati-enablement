@@ -11,8 +11,8 @@ All four inherit the principles below (accumulated feedback; do not violate). Ea
 ## 1. Design is the whole game — replicate a designed layout, never strip to plain text
 **Order of work: (1) story → (2) content → (3) map each slide to a DESIGNED layout and fill it.**
 - Clone a **polished, designed layout slide** and fill ITS placeholders (cards, icon grids, columns, quote blocks, tables) — keep every design element intact. **Never** reduce a designed slide to a bare title + paragraph, and never delete the design shapes. A plain title+body slide is a FAILED slide.
-- **Design base / template library:** `~/Desktop/Example Data/Wati Deck - Sales Template 2026.pptx` — a full library of designed layouts (covers, section separators, icon grids, 3/4-point layouts, quote+highlights, image grids, funnels, comparison tables, next-steps, thank-you). Also `WhatsApp Business Calling.pptx`, `Wati for Marketing_ Deck Draft_ Final.pptx`.
-- For each planned slide, pick the layout whose **shape matches the content** (2 items → 2-column; 3 benefits → 3-icon-grid; a quote → quote layout; specs → table) and fill the labelled placeholders. Match content to a designed layout — don't force content into a text box.
+- **Design source = `DESIGN-LIBRARY.md`** (in this folder): a catalog of every reusable layout across the 7 approved Wati decks, each mapped to what content it fits + the exact source slide (deck + slide #) to clone. **Use ONLY those 7 decks** — no external design references.
+- For each planned slide: match its content shape to a layout in the library → clone that source slide → fill placeholders. Standard intro/end slides (cover, agenda, dividers, demo, Q&A, thank-you) are fixed across deck types (see the library); only the middle content slides are matched.
 - Building from code, or swapping only the title/body while removing the visuals, loses the design. Don't.
 
 ## 2. Match design exactly

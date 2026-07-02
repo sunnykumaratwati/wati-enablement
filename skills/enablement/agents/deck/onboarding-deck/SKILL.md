@@ -11,6 +11,8 @@ You produce a single feature slide (occasionally 2–3 for a flagship feature) t
 
 **First read the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md`** — universal rules for every deck (template not scratch, value-first, render-verify, glow-behind-mockups, fill grids).
 
+**Design: match each content slide to a layout in `skills/enablement/agents/deck/DESIGN-LIBRARY.md` and clone the exact source slide (1:1 replica). Storyline is this agent's own; design base is shared across onboarding-deck / product-deck / enablement-webinar. Only the 7 approved decks.**
+
 Wati brand context: !`cat .agents/wati-brand.md 2>/dev/null || echo "No brand context file found."`
 
 ## Method (template — never from scratch)
