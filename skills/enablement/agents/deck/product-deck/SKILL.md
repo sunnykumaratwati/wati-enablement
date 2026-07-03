@@ -5,7 +5,7 @@ description: Creates Wati's complete product deck — the customer- and sales-fa
 
 # Product Complete Deck — Customer & Sales Facing
 
-**DELIVERABLE = a detailed ~3-page BUILD PROMPT only** — follow `skills/enablement/agents/deck/PROMPT-TEMPLATE.md` using this deck type's storyline in `skills/enablement/agents/deck/STORYLINE-BLUEPRINTS.md`, with a fully **inlined CONTEXT PACK** (positioning, value props, feature descriptions, naming/banned words, plan eligibility, edge-cases — embed the text; the builder can't read our files/Notion). Be very detailed on storyline + content. **Do NOT build the .pptx — output the prompt.**
+**DELIVERABLE = a detailed ~3-page BUILD PROMPT only** — follow `skills/enablement/agents/deck/PROMPT-TEMPLATE.md` using this deck type's storyline in `skills/enablement/agents/deck/STORYLINE-BLUEPRINTS.md`, with a fully **inlined CONTEXT PACK** (positioning, value props, feature descriptions, naming/banned words, plan eligibility, edge-cases — embed the text; the builder can't read our files/Notion). Be very detailed on storyline + content. **Do NOT build the .pptx — output the prompt.** **(Everything else in this agent — structures, build/render/QA steps — describes what your PROMPT must instruct the downstream builder to do; you output the prompt, not the deck.)**
 
 
 **Customer-facing:** lead with value & positioning (external messaging), NOT how the product was built. Omit internal mechanics (engines, confidence scores, build details) unless they're a customer benefit.
