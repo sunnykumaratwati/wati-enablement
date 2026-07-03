@@ -8,6 +8,21 @@ Decks are **enablement assets**. Inside enablement → **deck** → four individ
 
 All four inherit the principles below (accumulated feedback; do not violate). Each is trained individually for its own storyline/design — never overlap them.
 
+## RESEARCH CHAIN — before the story, gather DEEP context (mandatory, every deck)
+A shallow deck = a failed deck. Before writing the storyline, gather real depth from ALL of:
+1. **Feature Launch Doc** (the PMM's go-to brief — Google Sheet/PRD): why launching, feature description, key capabilities incl. HOW it works, launch tier/pricing, objectives, target geos, personas + pain + messaging, PMM launch activities. This is the base for every launch.
+2. **Support docs — ALWAYS WebSearch `support.wati.io` for the exact feature** + read it: step-by-step mechanics, settings, edge cases, and the REAL FAQs (auto-retry, static vs dynamic list, plan gating, how recs are generated). Non-negotiable — this is the core depth.
+3. **Notion** launch hub / how-to / positioning / ICP / competition / emails.
+4. **`context/<category>.md`** (KB) + the launch project folder.
+5. **Web** for extra framing (e.g. what a great sales-enablement/feature-launch deck covers) — add sensible sections from your own product-marketer judgment.
+Then INLINE all of it into the CONTEXT PACK (the builder can't read any of these).
+
+## DEPTH & CALIBRATION (product-marketer brain)
+- **Answer the questions people will actually ask.** Smart FAQs pulled from the support doc + PM briefing (not surface bullets). Reps must leave able to answer: does it work with auto-retry? static vs active list? how are recommendations made? plan gating?
+- **Separate distinct concepts** and give each its own space — e.g. Campaign Calendar (the surface) vs AI Recommendations (incl. HOW they're generated) vs Drip. Missing 'how recs are made' is a failure.
+- **Always include:** per-feature **use cases**, **personas + pain + messaging**, a **'how we're prepping for launch'** slide (PMM activities), and a closing **holistic** slide (e.g. everything Wati Campaigns now consists of).
+- Calibration: impressive & complete, NOT a consulting wall of text and NOT 2 surface bullets. Empower the team — keep depth in the deck even if not all covered live.
+
 ## 0. STORY FIRST — hard gate (do not skip)
 **Before any content or design, write the storyline and get Sunny's sign-off.** Save it as `STORYLINE.md` in the project: the narrative beats (what each beat accomplishes), not slides, not design. Present it and STOP. Only after approval do you write slide content, then match designs. Storyline differs per deck type (internal enablement vs product vs onboarding); it is always step one. Jumping to slides is the #1 failure — don't.
 
