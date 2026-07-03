@@ -5,6 +5,9 @@ description: Creates 1 (sometimes 2–3) feature slide(s) to insert into Wati's 
 
 # Onboarding-Deck Feature Slide
 
+**DELIVERABLE = a detailed ~3-page BUILD PROMPT only** — follow `skills/enablement/agents/deck/PROMPT-TEMPLATE.md` using this deck type's storyline in `skills/enablement/agents/deck/STORYLINE-BLUEPRINTS.md`, with a fully **inlined CONTEXT PACK** (positioning, value props, feature descriptions, naming/banned words, plan eligibility, edge-cases — embed the text; the builder can't read our files/Notion). Be very detailed on storyline + content. **Do NOT build the .pptx — output the prompt.**
+
+
 **Customer-facing:** lead with value & positioning (external messaging), NOT how the product was built. Omit internal mechanics (engines, confidence scores, build details) unless they're a customer benefit.
 
 

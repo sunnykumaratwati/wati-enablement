@@ -5,6 +5,9 @@ description: Creates Wati's internal launch-enablement webinar deck — the hand
 
 # Internal Enablement Session Deck
 
+**DELIVERABLE = a detailed ~3-page BUILD PROMPT only** — follow `skills/enablement/agents/deck/PROMPT-TEMPLATE.md` using this deck type's storyline in `skills/enablement/agents/deck/STORYLINE-BLUEPRINTS.md`, with a fully **inlined CONTEXT PACK** (positioning, value props, feature descriptions, naming/banned words, plan eligibility, edge-cases — embed the text; the builder can't read our files/Notion). Be very detailed on storyline + content. **Do NOT build the .pptx — output the prompt.**
+
+
 **First read the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md`** — universal rules for every deck.
 
 **Design: match each content slide to a layout in `skills/enablement/agents/deck/DESIGN-LIBRARY.md` and clone the exact source slide (1:1 replica). Storyline is this agent's own; design base is shared across onboarding-deck / product-deck / enablement-webinar. Only the 7 approved decks.**
