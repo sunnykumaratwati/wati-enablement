@@ -11,7 +11,8 @@ All four inherit the principles below (accumulated feedback; do not violate). Ea
 ## RESEARCH CHAIN — before the story, gather DEEP context (mandatory, every deck)
 A shallow deck = a failed deck. Before writing the storyline, gather real depth from ALL of:
 1. **Feature Launch Doc** (the PMM's go-to brief — Google Sheet/PRD): why launching, feature description, key capabilities incl. HOW it works, launch tier/pricing, objectives, target geos, personas + pain + messaging, PMM launch activities. This is the base for every launch.
-2. **Support docs — ALWAYS WebSearch `support.wati.io` for the exact feature** + read it: step-by-step mechanics, settings, edge cases, and the REAL FAQs (auto-retry, static vs dynamic list, plan gating, how recs are generated). Non-negotiable — this is the core depth.
+2. **PRD problem/pain-points FIRST** — read the PRD's 'why we're launching' + persona pain points before anything else. **Each feature solves its OWN distinct pain — do NOT invent one unifying problem** (e.g. don't blame 'the list view' for everything). Multi-feature launches (e.g. Campaign Calendar + AI Recommendations vs Drip) have separate pains that may only loosely relate via a common goal (save time / send more). Frame each feature's pain from the PRD, then research to deepen it.
+3. **Support docs — ALWAYS WebSearch `support.wati.io` for the exact feature** + read it: step-by-step mechanics, settings, edge cases, and the REAL FAQs (auto-retry, static vs dynamic list, plan gating, how recs are generated). Non-negotiable — this is the core depth.
 3. **Notion** launch hub / how-to / positioning / ICP / competition / emails.
 4. **`context/<category>.md`** (KB) + the launch project folder.
 5. **Web** for extra framing (e.g. what a great sales-enablement/feature-launch deck covers) — add sensible sections from your own product-marketer judgment.

@@ -22,7 +22,7 @@
 
 **7. 100% design gate** — render every slide (both fonts installed) → run `wati-brand-auditor` + per-slide check vs the source layout → fix until every slide scores 100% on font/palette/burst/logo/overflow/empty-slots/leftovers/alignment. Only ship at 100%.
 
-**8. Output** — save to `<project>/outputs/<name>.pptx`; show rendered montage.
+**8. Output & file-size cap** — save to `<project>/outputs/<name>.pptx`; show rendered montage. **Hard cap: the exported deck must stay ≤ 90 MB no matter how long the content** — compress/optimize all images & screenshots (reasonable resolution, JPEG/PNG-optimized), avoid uncompressed or oversized media, don't embed video. If nearing the limit, downscale images, not content.
 
 ---
 The prompt is the handoff. It must be complete enough that the builder never has to guess about design.
