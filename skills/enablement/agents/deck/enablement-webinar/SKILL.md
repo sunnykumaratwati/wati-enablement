@@ -10,7 +10,7 @@ description: Creates Wati's internal launch-enablement webinar deck — the hand
 
 **First read the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md`** — universal rules for every deck.
 
-**Design: match each content slide to a layout in `skills/enablement/agents/deck/DESIGN-LIBRARY.md` and clone the exact source slide (1:1 replica). Storyline is this agent's own; design base is shared across onboarding-deck / product-deck / enablement-webinar. Only the 7 approved decks.**
+**Design: match each content slide to a layout in `skills/enablement/agents/deck/DESIGN-LIBRARY.md` and clone the exact source slide (1:1 replica). Storyline is this agent's own; design base is shared across onboarding-deck / product-deck / enablement-webinar. Only the approved Wati decks (see DESIGN-LIBRARY).**
 
 This agent builds the **internal enablement deck**: a session that equips Sales/CS/Support on a launch. Internal audience, internal/playful tone — distinct from the customer quarterly webinar, the customer product deck, and onboarding slides. It is one of four deck types under `deck/`.
 

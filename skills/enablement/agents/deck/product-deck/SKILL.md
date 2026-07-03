@@ -13,7 +13,7 @@ description: Creates Wati's complete product deck — the customer- and sales-fa
 
 **First read the shared `skills/enablement/agents/deck/DECK-PRINCIPLES.md`** — the universal deck-building rules (template not scratch, value-first, render-verify, glow-behind-mockups, fill grids, don't-mix-types). They apply to every deck.
 
-**Design: match each content slide to a layout in `skills/enablement/agents/deck/DESIGN-LIBRARY.md` and clone the exact source slide (1:1 replica). Storyline is this agent's own; design base is shared across onboarding-deck / product-deck / enablement-webinar. Only the 7 approved decks.**
+**Design: match each content slide to a layout in `skills/enablement/agents/deck/DESIGN-LIBRARY.md` and clone the exact source slide (1:1 replica). Storyline is this agent's own; design base is shared across onboarding-deck / product-deck / enablement-webinar. Only the approved Wati decks (see DESIGN-LIBRARY).**
 
 This agent builds the **complete product deck** used with customers and by sales — the full solution story (problem → shift → product → proof → pricing/CTA). It is one of four deck types under `deck/`: quarterly webinar → `quarterly-webinar`; internal launch-enablement webinar → `enablement-webinar`; onboarding-deck feature slides → `onboarding-deck`.
 
