@@ -1,3 +1,5 @@
+**Enablement decks: the canonical base is `BASE-DECK.md` (the recent 20×11.25 deck) — mirror it first.**
+
 # Wati Deck Design System + Layout Library
 
 All Wati decks are ONE design system (verified across 10 decks). Any slide I make must match this pattern. **I never design a slide — I clone the cleanest real instance of the layout I need and swap only the words.**

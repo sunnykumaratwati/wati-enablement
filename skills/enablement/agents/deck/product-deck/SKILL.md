@@ -5,6 +5,9 @@ description: Creates Wati's complete product deck — the customer- and sales-fa
 
 # Product Complete Deck — Customer & Sales Facing
 
+**TRAINED REFERENCE DECKS (clone design from these):** `Wati for Marketing_ Deck Draft_ Final`, `Wati Deck - Sales Template 2026`, `WhatsApp Business Calling`, `Wati AI Webinar`, `Wati_ CTWA_ Agency Deck`, `Partner Deck 2026` (all in Example Data / Downloads). **Product-deck storyline:** Cover → the customer problem/why-now → the shift → per-feature (value + how it helps + product mockup + optional demo) → use cases → why Wati (differentiators + trust: 16,000+ businesses · 100+ countries · Meta Partner) → real proof/customer story (omit if none) → plans & pricing → CTA → Thank you. Customer-facing, value-first, omit internal mechanics.
+
+
 **DELIVERABLE = a detailed ~3-page BUILD PROMPT only** — follow `skills/enablement/agents/deck/PROMPT-TEMPLATE.md` using this deck type's storyline in `skills/enablement/agents/deck/STORYLINE-BLUEPRINTS.md`, with a fully **inlined CONTEXT PACK** (positioning, value props, feature descriptions, naming/banned words, plan eligibility, edge-cases — embed the text; the builder can't read our files/Notion). Be very detailed on storyline + content. **Do NOT build the .pptx — output the prompt.** **(Everything else in this agent — structures, build/render/QA steps — describes what your PROMPT must instruct the downstream builder to do; you output the prompt, not the deck.)**
 
 
